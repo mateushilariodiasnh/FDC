@@ -15,15 +15,15 @@ export default function InitialSectionLg() {
                         <button className='uppercase text-white bg-[#2A9FBC] py-3 px-10 mt-4 ml-6'>Quero começar agora</button>
                     </div>
                 </section>
-                <div className=' my-auto'>
+                <picture className=' my-auto'>
                     <img className='h-[648px] w-[574px]' src={KVimage.src} />
-                </div>
+                </picture>
                 <a href='#suaEmpresaEUnica'>
                     <button className='block ml-auto mr-0 top-8'>
                         <Flecha className='h-9 w-9 absolute animate-bounce rotate-90' />
                     </button>
                 </a>
-                <Corte className="" />
+                <Corte />
             </section>
         </>
     )

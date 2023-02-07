@@ -1,7 +1,7 @@
 export default function Merchan() {
     return (
         <>
-            <section className='bg-sky-800'>
+            <section className="bg-[url('../public/images/InitialImage.png')] xl:bg-cover ">
                 <div className='m-auto pt-16 pb-16 max-w-2xl '>
                     <h2 className='text-[#FFFFFF] pt-16  mx-6 text-xl lg:text-3xl font-nexaSlab'>Transforme os gaps do seu negócio em oportunidades com a FDC</h2>
                     <div className='border-l-4 border-[#FAA635] ml-6 mt-12 mb-20 font-openSans'>

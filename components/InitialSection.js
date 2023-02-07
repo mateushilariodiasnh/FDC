@@ -13,7 +13,7 @@ export default function InitialSection() {
                     <p className='mt-4 mx-6 text-lg'>Descubra os gaps do seu negócio com o apoio da FDC e crie trilhas de desenvolvimento específicas para a sua empresa. Com o programa Corporate Learn & Drive, seu time inicia a jornada para o futuro com a melhor escola de negócios da América Latina, cobrindo as principais dimensões necessárias para a evolução dos negócios - é uma verdadeira academia de gestão à sua disposição. A excelência educacional de sempre, em um formato que você nunca viu.</p>
                     <Telha className="h-93 w-82 mt-2 ml-3" />
                 </section>
-                <Corte className="" />
+                <Corte/>
             </section>
             <div className=' lg:block border-l-4 border-[#FAA635] ml-6 mt-12 mb-20'>
                 <p className='ml-6 mx-6 text-base text-[#005E83]'>Cadastre-se e faça a <strong>avaliação de maturidade</strong> da sua empresa <strong>gratuitamente.</strong> </p>

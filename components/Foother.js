@@ -12,9 +12,9 @@ import { Equis } from '../components/icons'
 export default function Foother() {
     return (
         <>
-            <footer className=''>
+            <footer>
                 <div className='bg-[#FFFFFF] text-center pt-10 text-[#5C585B] mb-10 lg:mb-0 lg:flex lg:py-16 lg:px-4 lg:items-center lg:justify-center'>
-                    <address className=''>
+                    <address>
                         <p className='pb-4 text-base font-black font-nexaSlab'>Fale conosco</p>
                         <a href='0800 941 9200'>0800 941 9200</a><br></br>
                         <a href='atendimento@fdc.org.br'>atendimento@fdc.org.br</a>

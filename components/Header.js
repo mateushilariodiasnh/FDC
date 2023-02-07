@@ -32,7 +32,6 @@ export default function Header() {
                             <button className='bg-[#FFFFFF] mt-4 lg:mt-0 py-3 px-28 text-[#005E83] hover:text-white border border-[#005E83] hover:bg-[#005E83] uppercase lg:py-3 lg:px-5 w-full lg:w-40 lg:h-12'><strong>Retomar</strong>
                             </button>
                         </div>
-
                     </nav>
                 </div>
             </header>
