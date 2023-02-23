@@ -16,7 +16,7 @@ export default function InitialSectionLg() {
                     </div>
                 </section>
                 <picture className=' my-auto'>
-                    <img className='h-[648px] w-[574px]' src={KVimage.src} />
+                    <img className='h-[648px] w-[574px]' src={KVimage.src} alt="Uma mulher olhando para um notebook"/>
                 </picture>
                 <a href='#suaEmpresaEUnica'>
                     <button className='block ml-auto mr-0 top-8'>

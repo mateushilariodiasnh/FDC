@@ -60,7 +60,7 @@ export default function About() {
                         <button className='block mx-auto uppercase border border-white text-white hover:bg-white hover:text-[#005E83] h-12 my-12 text-center px-6'>Conheça mais</button>
                     </div>
 
-                    <div className=' grid grid-flow-row place-content-center bg-white items-center space-y-6 mx-6 md:min-w-sm max-w-4xl mb-20 py-12 lg:flex lg:space-x-6 lg:px-12 md:mx-auto relative z-10'>
+                    <div className=' grid grid-flow-row place-content-center bg-white items-center space-y-6 mx-6 md:min-w-sm max-w-4xl mb-20 py-12 lg:flex lg:space-x-6 lg:py-15 lg:px-12 md:mx-auto relative z-10'>
                         <div>
                             <div className='h-2 w-12 bg-[#FAA635] mb-4'></div>
                             <p className='uppercase text-center lg:pr-16 text-base font-nexaSlab'>Ranking e Certificações</p>

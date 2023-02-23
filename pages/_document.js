@@ -5,6 +5,8 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
+        <title>Corporate Learn &amp; Drive | Fundação Dom Cabral</title>
+        <link rel='icon' sizes='any' href='../public/favicon.ico'></link>
         <Main />
         <NextScript />
       </body>
