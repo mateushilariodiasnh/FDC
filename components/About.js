@@ -15,12 +15,12 @@ export default function About() {
         <>
             <section className='relative overflow-hidden'>
                 <div className='bg-[#5C585B] pt-16'>
-                    <div className='border-t-8 border-[#686366] mx-6 lg:max-w-4xl lg:mx-auto'></div>
+                    <div className='border-t-8 border-[#686366] mx-6 lg:max-w-3.5xl lg:mx-auto'></div>
                     <h2 className='uppercase text-center text-[#2A9FBC] mt-10 mb-8 text-2xl lg:text-4xl font-nexaSlab'>Sobre a FDC</h2>
-                    <div className='border-t-8 border-[#686366] mx-6 lg:max-w-4xl lg:mx-auto'></div>
+                    <div className='border-t-8 border-[#686366] mx-6 lg:max-w-3.5xl lg:mx-auto'></div>
                     <p className='text-[#FFFFFF] mx-6 mt-10 px-4 lg:max-w-2xl lg:mx-auto font-openSans  '><strong>A FDC impulsiona o desenvolvimento</strong> das organizações com uma abordagem focada em resultados, inclusão e sustentabilidade para os negócios. Olhamos para a real necessidade, bem como para os desafios e objetivos das organizações e de seus profissionais, contribuindo para o aprimoramento das competências gerenciais e individuais e a melhoria constante da governança, gestão e dos resultados. </p> <br></br>
                     <p className='text-[#FFFFFF] mx-6 px-4 lg:max-w-2xl lg:mx-auto font-openSans'><strong>Nossas soluções geram impacto e compreendem temáticas globais,</strong> acompanhando as transformações do mundo e da sociedade na velocidade que o mercado exige.</p>
-                    <div className=' mx-14 text-white pt-10 lg:px-auto lg:max-w-4xl lg:mx-auto'>
+                    <div className=' mx-14 text-white pt-10 lg:px-auto lg:max-w-3.5xl lg:mx-auto'>
                         <div className='lg:grid gap-1 lg:grid-cols-4 lg:space-x-6'>
                             <article>
                                 <Fields ><h3>45 anos</h3></Fields>
@@ -60,10 +60,10 @@ export default function About() {
                         <button className='block mx-auto uppercase border border-white text-white hover:bg-white hover:text-[#005E83] h-12 my-12 text-center px-6'>Conheça mais</button>
                     </div>
 
-                    <div className=' grid grid-flow-row place-content-center bg-white items-center space-y-6 mx-6 md:min-w-sm max-w-4xl mb-20 py-12 lg:flex lg:space-x-6 lg:py-15 lg:px-12 md:mx-auto relative z-10'>
+                    <div className=' grid grid-flow-row place-content-center bg-white items-center space-y-6 mx-6 md:min-w-sm lg:max-w-3.5xl mb-20 py-12 lg:flex lg:space-x-6 lg:py-15 lg:px-12 md:mx-auto relative z-10'>
                         <div>
                             <div className='h-2 w-12 bg-[#FAA635] mb-4'></div>
-                            <p className='uppercase text-center lg:pr-16 text-base font-nexaSlab'>Ranking e Certificações</p>
+                            <p className='uppercase lg:pr-16 text-base font-nexaSlab'>Ranking e Certificações</p>
                         </div>
                         <Ft className='h-14 lg:h-full mx-auto' />
                         <Amba className='h-10 lg:h-full mx-auto' />
@@ -76,6 +76,8 @@ export default function About() {
 
                     <div className='bullets'>
                         <Swiper
+                            modules={[Pagination]}
+                            pagination={{ clickable: true }}
                             breakpoints={{
                                 1024: {
                                     slidesPerView: 3

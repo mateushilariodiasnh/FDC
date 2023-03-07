@@ -7,8 +7,8 @@ export default function FaqShow() {
         <>
             {Data.map((item) =>{
                             return (
-                                <ul  key={item.number}>
-                                <Faq  data={item}/></ul>
+                                <li  key={item.number}>
+                                <Faq  data={item}/></li>
                             )
                         }
                     )

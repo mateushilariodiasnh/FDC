@@ -6,8 +6,8 @@ export default function InitialSection() {
     return (
         <div className="lg:hidden">
             <section className="bg-[url('../public/images/InitialImage.png')] bg-cover  ">
-                <section className='text-white pt-24'>
-                    <h1 className='uppercase mx-6 font-nexaSlab font-black text-3xl leading-snug'>Corporate Learn & Drive:
+                <section className='text-white pt-8'>
+                    <h1 className='uppercase mx-6 font-nexaSlab font-black text-2xl leading-snug'>Corporate Learn & Drive:
                         sua academia de gestão</h1>
                     <p className='mx-6 font-nexaSlab font-light text-3xl'>Para empresas que querem transformar gaps em oportunidades</p>
                     <p className='mt-4 mx-6 text-lg'>Descubra os gaps do seu negócio com o apoio da FDC e crie trilhas de desenvolvimento específicas para a sua empresa. Com o programa Corporate Learn & Drive, seu time inicia a jornada para o futuro com a melhor escola de negócios da América Latina, cobrindo as principais dimensões necessárias para a evolução dos negócios - é uma verdadeira academia de gestão à sua disposição. A excelência educacional de sempre, em um formato que você nunca viu.</p>

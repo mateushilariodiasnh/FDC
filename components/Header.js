@@ -9,7 +9,7 @@ export default function Header() {
 
     return (
         <>
-            <header className='z-50 sticky top-0 left-0 bg-white py-6 lg:py-0 font-openSans'>
+            <header className='z-50 sticky top-0 left-0 bg-white py-4 lg:py-0 font-openSans'>
                 <div className='flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full  flex-wrap w-full px-5 font-openSans'>
                     <div className='tems-center justify-between lg:space-x-4 flex space-y-2'>
                         <Logo className="h-8 " />
@@ -26,7 +26,7 @@ export default function Header() {
                                 <button className='bg-[#FAA635] hover:bg-[#005E83] text-[#FFFFFF] uppercase h-12 lg:h-auto w-full lg:w-68 pl-4 lg:py-3 lg:px-8 lg:w-full my-auto lg:ml-0'>Quero começar agora
                                 </button>
                                 <button className="items-center">
-                                    <ArrowSite className="pr-4 h-12 lg:h-12 lg:mr-0 w-16 lg:w-68" />
+                                    <ArrowSite className="lg:pr-4 h-12 lg:h-12 lg:mr-0 w-16 lg:w-68" />
                                 </button>
                             </div>
                             <button className='bg-[#FFFFFF] mt-4 lg:mt-0 py-3 px-28 text-[#005E83] hover:text-white border border-[#005E83] hover:bg-[#005E83] uppercase lg:py-3 lg:px-5 w-full lg:w-40 lg:h-12'><strong>Retomar</strong>

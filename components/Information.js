@@ -26,7 +26,7 @@ export default function Information() {
                 </div>
                 <section className='relative overflow-hidden'>
                     <div className='mx-6 my-10 lg:grid lg:grid-cols-2 lg:max-w-3xl lg:mx-auto lg:space-x-6 lg:space-y-6'>
-                        <div className='pl-6 z-10 font-openSans'>
+                        <div className='lg:pl-6 z-10 font-openSans'>
                             <p className='lg:pt-8 lg:grid-cols-1'>Avaliamos as <strong>lacunas do seu negócio</strong> para sugerir os conteúdos que precisam ser trabalhados e isso faz toda a diferença.</p> <br></br>
                             <p className='lg:grid-cols-1'>Seu time ainda pode adicionar módulos de interesse de acordo com a cultura e as necessidades pontuais da organização, formando uma <strong>grade curricular flexível.</strong> </p>
                         </div>

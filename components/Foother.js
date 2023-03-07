@@ -16,8 +16,8 @@ export default function Foother() {
                 <div className='bg-[#FFFFFF] text-center pt-10 text-[#5C585B] mb-10 lg:mb-0 lg:flex lg:py-16 lg:px-4 lg:items-center lg:justify-center'>
                     <address>
                         <p className='pb-4 text-base font-black font-nexaSlab'>Fale conosco</p>
-                        <a href='0800 941 9200'>0800 941 9200</a><br></br>
-                        <a href='atendimento@fdc.org.br'>atendimento@fdc.org.br</a>
+                        <a href='telto:0800 941 9200'>0800 941 9200</a><br></br>
+                        <a href='mailto:atendimento@fdc.org.br'>atendimento@fdc.org.br</a>
                     </address>
                     <div className='border-t border-[#E4E2E2] m-6 lg:my-6 lg:mx-0 xl:m-6'></div>
                     <div className='flex justify-between mx-6 lg:flex lg:space-x-4'>

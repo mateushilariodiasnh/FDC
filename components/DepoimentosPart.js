@@ -21,11 +21,11 @@ export default function DepoimentosPart() {
                     <div className='teste-buttom-next '>
                         <DownArrowList className="h-4 -rotate-90 hidden lg:block" />
                     </div>
+                    <span className='-bottom-96 lg:-bottom-96 aria-hidden:"true" absolute px-2 items-center justify-center h-full w-[605px] lg:h-[634px] lg:w-[1815px] mx-auto '>
+                        <FdcThree className='-z-10' />
+                    </span>
                 </div>
 
-                <span className='lg:-bottom-96 aria-hidden:"true" absolute px-2 items-center justify-center h-full w-full lg:h-[634px] lg:w-[1815px] mx-auto '>
-                    <FdcThree className='-z-10' />
-                </span>
             </section>
         </>
     )

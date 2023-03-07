@@ -1,13 +1,4 @@
-import styles from '../styles/Home.module.css'
-import Button from '../components/Button'
-import Card from "../components/Card"
-import { Telha } from '../components/icons'
-import { Flecha } from '../components/icons'
 import Header from '../components/Header'
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css/pagination"
-import { Pagination, A11y } from 'swiper';
-import 'swiper/css'
 import InitialSection from '../components/InitialSection'
 import InitialSectionLg from '../components/InitialSectionLg'
 import Information from '../components/Information'
