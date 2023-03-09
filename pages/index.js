@@ -1,6 +1,5 @@
 import Header from '../components/Header'
 import InitialSection from '../components/InitialSection'
-import InitialSectionLg from '../components/InitialSectionLg'
 import Information from '../components/Information'
 import About from '../components/About'
 import DepoimentosPart from '../components/DepoimentosPart'
@@ -17,8 +16,6 @@ export default function Home() {
       <main className='bg-[#EFEDED] z-0'>
 
         <InitialSection />
-
-        <InitialSectionLg />
 
         <Information />
 

@@ -1,6 +1,6 @@
-import Logo from "../public/images/logo.svg"
+import LogoOneFDC from "../public/images/logoOneFDC.svg"
+import LogoTwoFDC from "../public/images/logoTwoFDC.svg"
 import Hamb from "../public/images/hamb.svg"
-import Telha from "../public/images/telha.svg"
 import FdcOne from "../public/images/fdcOne.svg"
 import FdcTwo from "../public/images/fdcTwo.svg"
 import FdcThree from "../public/images/fdcThree.svg"
@@ -38,9 +38,9 @@ import DownArrowList from "../public/images/DownArrowList.svg"
 import Corte from "../public/images/corte.svg"
 
 export {
-    Logo,
+    LogoOneFDC,
+    LogoTwoFDC,
     Hamb,
-    Telha,
     Flecha,
     CardImageOne,
     CardImageTwo,

@@ -18,7 +18,7 @@ export default function Information() {
     return (
         <>
             <section>
-                <div id='suaEmpresaEUnica' className='text-center font-nexaSlab'>
+                <div id='suaEmpresaEUnica' className='text-center font-nexaSlab mt-16'>
                     <div className='border-t-8 border-[#FFFFFF] m-6 lg:max-w-3xl lg:mx-auto'></div>
                     <h2 className='uppercase text-[#2A9FBC] mt-10 mb-2 text-2xl lg:text-4xl'>Sua empresa é única</h2>
                     <p className='text-[#005E83] mx-8 mb-8 '>É por isso que a jornada dela também tem de ser</p>

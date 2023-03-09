@@ -11,6 +11,12 @@ module.exports = {
       maxWidth: {
         '3.5xl': '52rem',
       },
+      fontSize: {
+        '3.5xl': ['1.5rem', {
+          lineHeight: '2.1rem',
+          letterSpacing: '0.02rem',
+        }]
+      },
       backgroundImage: {
         'InitialImage': "url('../images/InitialImage.png)",
       }
