@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Header />
 
-      <main className='bg-[#EFEDED] z-0'>
+      <main className='bg-secondaryWhite z-0'>
 
         <InitialSection />
 

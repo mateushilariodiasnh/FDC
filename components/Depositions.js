@@ -7,15 +7,15 @@ import 'swiper/css'
 import { useEffect, useState } from 'react';
 
 export default function List() {
-    const [mounted, setMounted] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
-    return (
+  return (
 
-        <>
+    <>
       {mounted && (
         <Swiper
           modules={[Pagination, A11y, Navigation]}
@@ -25,7 +25,7 @@ export default function List() {
           pagination={{ clickable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
-          loop = {true}
+          loop={true}
           breakpoints={{
             1024: {
               slidesPerView: 3,
@@ -51,5 +51,5 @@ export default function List() {
       )}
     </>
 
-    )
+  )
 }
