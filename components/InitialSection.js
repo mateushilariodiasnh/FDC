@@ -5,7 +5,7 @@ import KVwomanInFrontOfTheNotebook from '/public/images/KVwomanInFrontOfTheNoteb
 export default function InitialSection() {
     return (
         <div>
-            <section className="bg-[url('../public/images/InitialImage.png')] bg-[url('../public/images/backgroundMain.png)] bg-cover lg:grid grid-cols-2 lg:itens-center lg:justify-center 2xl:mx-auto ">
+            <section className=" bg-InitialImage relative z-10 bg-cover lg:grid grid-cols-2 lg:itens-center lg:justify-center 2xl:mx-auto ">
                 <section className='text-white pt-8 lg:pt-24 2xl:max-w-2xl 2xl:mx-auto 2xl:px-4'>
                     <h1 className='uppercase ml-6 mr-[72px] md:mx-6 font-nexaSlab font-black text-3.5xl '>Corporate Learn & Drive : sua academia de gestão</h1>
                     <p className='ml-6 md:mx-6 font-nexaSlab font-light text-3.5xl'>Para empresas que querem transformar gaps em oportunidades</p>
@@ -16,12 +16,12 @@ export default function InitialSection() {
                     </div>
                 </section>
                 <picture>
-                    <img className='h-full w-full mt-0 ml-3 lg:h-[648px] lg:w-[574px]' src={KVwomanInFrontOfTheNotebook.src} alt="Uma mulher olhando para um notebook" />
+                    <img className=' h-96 w-96 mt-0 lg:ml-3 px-6 lg:h-[648px] lg:w-[574px] relative z-30' src={KVwomanInFrontOfTheNotebook.src} alt="Uma mulher olhando para um notebook" />
                 </picture>
                 <a href='#suaEmpresaEUnica' className='ml-auto mr-0 top-8 lg:block hidden'>
                     <Flecha className='h-9 w-9 absolute animate-bounce rotate-90' />
                 </a>
-                <Corte />
+                <Corte className='absolute z-20 -bottom-1'/>
             </section>
             <div className=' lg:hidden border-l-4 border-tertiaryOrange ml-6 mt-12 mb-20 font-openSans text-1.5xl'>
                 <p className='ml-6 mx-6 text-primaryBlueDark font-normal'>Cadastre-se e faça a <strong>avaliação de maturidade</strong> da sua empresa <strong>gratuitamente.</strong> </p>

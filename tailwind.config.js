@@ -22,7 +22,7 @@ module.exports = {
         }],
       },
       backgroundImage: {
-        'InitialImage': "url('../images/InitialImage.png)",
+        'InitialImage': "url('../public/images/initialImageWebdoor.png')",
       }
     },
     colors: {
