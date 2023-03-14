@@ -3,13 +3,12 @@ import "swiper/css/pagination"
 import { Pagination, A11y } from 'swiper';
 import 'swiper/css'
 import Cards from './Card'
-import Data from './CardsData.js'
 
-export default function CardsMobille() {
+export default function CardsMobille({data}) {
   return (
     <div className='lg:hidden'>
       <Swiper
-        modules={[Pagination, A11y]}
+        modules={[Pagination]}
         spaceBetween={16}
         slidesPerView={1.5}
         pagination={{ clickable: true }}
@@ -20,10 +19,10 @@ export default function CardsMobille() {
           }
         }}
       >
-          {Data.map((item) => {
+          {data.map((item) => {
             return (
-              <div className="bullets">
-                <SwiperSlide key={item.id}>
+              <div className="bullets" >
+                <SwiperSlide >
                   <Cards image={item.image} content={item.content} />
                 </SwiperSlide>
               </div>

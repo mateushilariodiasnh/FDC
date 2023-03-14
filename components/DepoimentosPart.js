@@ -9,7 +9,7 @@ export default function DepoimentosPart() {
                 <div className='border-t-8 border-secondaryGrayMedium m-6 lg:max-w-3.5xl lg:mx-auto'></div>
                 <h2 className='uppercase text-primaryBlue text-center mt-10 mb-8 text-2xl lg:text-4xl font-nexaSlab'>Sua empresa em boa companhia </h2>
                 <div className='border-t-8 border-secondaryGrayMedium m-6 lg:max-w-3.5xl lg:mx-auto'></div>
-                <p className='mx-6 my-10 mt-10 lg:max-w-xl lg:mx-auto text-base font-openSans'>Confira os depoimentos de executivos e colaboradores que já participaramde programas empresariais da FDC.</p>
+                <p className='mx-6 my-10 lg:max-w-xl lg:mx-auto text-base font-openSans'>Confira os depoimentos de executivos e colaboradores que já participaramde programas empresariais da FDC.</p>
             </div>
 
             <div className='bullets flex items-center justify-center lg:max-w-7xl mx-auto pb-20 relative z-10'>

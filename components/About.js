@@ -9,6 +9,7 @@ import { LocalFachadaTwo } from "./icons"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination, A11y } from 'swiper';
 import 'swiper/css'
+import FieldsContent from "./FieldsContent"
 
 export default function About() {
     return (
@@ -17,39 +18,39 @@ export default function About() {
                 <div className='border-t-8 border-secondaryGrayDark mx-6 lg:max-w-3.5xl lg:mx-auto'></div>
                 <h2 className='uppercase text-center text-primaryBlue mt-10 mb-8 text-2xl lg:text-4xl font-nexaSlab'>Sobre a FDC</h2>
                 <div className='border-t-8 border-secondaryGrayDark mx-6 lg:max-w-3.5xl lg:mx-auto'></div>
-                <p className='text-white mx-6 mt-10 px-4 lg:max-w-2xl lg:mx-auto font-openSans  '><strong>A FDC impulsiona o desenvolvimento</strong> das organizações com uma abordagem focada em resultados, inclusão e sustentabilidade para os negócios. Olhamos para a real necessidade, bem como para os desafios e objetivos das organizações e de seus profissionais, contribuindo para o aprimoramento das competências gerenciais e individuais e a melhoria constante da governança, gestão e dos resultados. </p> <br></br>
-                <p className='text-white mx-6 px-4 lg:max-w-2xl lg:mx-auto font-openSans'><strong>Nossas soluções geram impacto e compreendem temáticas globais,</strong> acompanhando as transformações do mundo e da sociedade na velocidade que o mercado exige.</p>
+                <p className='text-white text-1.5xl mx-6 mt-10 lg:max-w-2xl lg:mx-auto font-openSans  '><strong>A FDC impulsiona o desenvolvimento</strong> das organizações com uma abordagem focada em resultados, inclusão e sustentabilidade para os negócios. Olhamos para a real necessidade, bem como para os desafios e objetivos das organizações e de seus profissionais, contribuindo para o aprimoramento das competências gerenciais e individuais e a melhoria constante da governança, gestão e dos resultados. </p>
+                <p className='text-white text-1.5xl mt-2 mx-6 lg:max-w-2xl lg:mx-auto font-openSans'><strong>Nossas soluções geram impacto e compreendem temáticas globais,</strong> acompanhando as transformações do mundo e da sociedade na velocidade que o mercado exige.</p>
                 <div className=' mx-14 text-white pt-10 lg:px-auto lg:max-w-3.5xl lg:mx-auto'>
                     <div className='lg:grid gap-1 lg:grid-cols-4 lg:space-x-6'>
                         <article>
                             <Fields ><h3>45 anos</h3></Fields>
-                            <p className='pb-4'>de história de sucesso e liderança</p>
+                            <FieldsContent ><p className='pt-2 pb-6 pl-4 pr-16 '>de história de sucesso e liderança</p></FieldsContent>
                         </article>
                         <article>
-                            <Fields >+1 milhão</Fields>
-                            <p className='pb-4'>de executivos capacitados em programas</p>
+                            <Fields ><h3>+1 milhão</h3></Fields>
+                            <FieldsContent ><p className='pt-1 pb-6 pl-4 pr-5'>de executivos capacitados em programas</p></FieldsContent>
                         </article>
                         <article>
-                            <Fields >+700</Fields>
-                            <p className='pb-4' >docentes com notoriedade nacional e internacional</p>
+                            <Fields ><h3>+700</h3></Fields>
+                            <FieldsContent ><p className='pt-2 pb-4 pl-4 pr-8 ' >docentes com notoriedade nacional e internacional</p></FieldsContent>
                         </article>
                         <article>
-                            <Fields >+900</Fields>
-                            <p className='pb-4'>empresas cliente atendidas por ano</p>
+                            <Fields ><h3>+900</h3></Fields>
+                            <FieldsContent ><p className='pt-3 pb-6 px-4 '>empresas cliente atendidas por ano</p></FieldsContent>
                         </article>
                     </div>
                     <div className='lg:grid gap-1 lg:grid-cols-3 lg:mt-6 lg:space-x-6'>
                         <article>
-                            <Fields >+37 mil</Fields>
-                            <p className='pb-4'>executivos participantes por ano</p>
+                            <Fields ><h3>+37 mil</h3></Fields>
+                            <FieldsContent ><p className='pt-3 pb-6 px-4 '>executivos participantes por ano</p></FieldsContent>
                         </article>
                         <article>
-                            <Fields >1ª em Educação</Fields>
-                            <p className='pb-4'>Executiva na América Latina há 15 anos consecutivos*</p>
+                            <Fields ><h3>1ª em Educação</h3></Fields>
+                            <FieldsContent ><p className='pt-3 pb-6 px-4 '>Executiva na América Latina há 15 anos consecutivos*</p></FieldsContent>
                         </article>
                         <article>
-                            <Fields >9ª melhor</Fields>
-                            <p className='pb-10'>escola de negócios do mundo*</p>
+                            <Fields ><h3>9ª melhor</h3></Fields>
+                            <FieldsContent ><p className='pt-3 pb-10 px-4 '>escola de negócios do mundo*</p></FieldsContent>
                         </article>
                     </div>
                 </div>

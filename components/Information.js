@@ -1,14 +1,10 @@
 import CardsMobille from "./CardsMobille";
 import Cards from "./Card";
-import { CardImageOne } from "./icons";
-import { CardImageTwo } from "./icons";
-import { CardImageThree } from "./icons";
-import { CardImageFour } from "./icons";
-import { CardImageFive } from "./icons";
 import { FdcOne } from "./icons";
 import { Tableone } from "./icons";
 import { Tabletwo } from "./icons";
 import { Tablethree } from "./icons";
+import Data from './CardsData.js'
 
 export default function Information() {
     return (
@@ -26,33 +22,17 @@ export default function Information() {
                         <p className='lg:grid-cols-1 pt-3'>Seu time ainda pode adicionar módulos de interesse de acordo com a cultura e as necessidades pontuais da organização, formando uma <strong>grade curricular flexível.</strong> </p>
                     </div>
 
-                    <CardsMobille className="relative " />
+                    <div className="block lg:hidden pl-6">
+                        <CardsMobille className="relative" data={Data} />
+                    </div>
 
-                    <article className=' hidden lg:block z-10'>
-                        <Cards>
-                            <CardImageOne className=" h-16 mx-auto mt-8 mb-7 " /><strong>Learn:</strong> mais de <strong>220 módulos,</strong> distribuídos em 7 dimensões empresariais
-                        </Cards>
-                    </article>
-                    <article className=' hidden lg:block z-10'>
-                        <Cards>
-                            <CardImageTwo className="h-16 mx-auto mt-8 mb-4 " /><strong>Drive:</strong> transposição do conhecimento para a prática, com <strong>metodologia exclusiva FDC</strong>
-                        </Cards>
-                    </article>
-                    <article className=' hidden lg:block z-10'>
-                        <Cards>
-                            <CardImageThree className="h-16 mx-auto lg:mt-14 mb-4" /><strong>Relatórios gerenciais</strong> para acompanhar o engajamento do time
-                        </Cards>
-                    </article>
-                    <article className=' hidden lg:block z-10'>
-                        <Cards>
-                            <CardImageFour className="h-16 mx-auto mt-8 mb-4" />Desenvolvimento <strong>Blended Learning,</strong> com turmas de até 30 pessoas
-                        </Cards>
-                    </article>
-                    <article className=' hidden lg:block z-10'>
-                        <Cards>
-                            <CardImageFive className="h-16 mx-auto mt-8 mb-4 " />Conteúdos exclusivos, seguindo o padrão de <strong>excelência da FDC</strong>
-                        </Cards>
-                    </article>
+                    {Data.map(data => {
+                        return (
+                            <article className=" hidden lg:block z-10">
+                                <Cards image={data.image} content={data.content} />
+                            </article>
+                        )
+                    })}
 
                 </div>
 
