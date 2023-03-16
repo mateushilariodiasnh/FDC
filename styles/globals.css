@@ -12,6 +12,10 @@
   @apply relative bg-tertiaryOrange w-4 h-2
 }
 
+html {
+  @apply scroll-smooth;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 @font-face {

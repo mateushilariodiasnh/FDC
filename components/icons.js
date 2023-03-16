@@ -4,12 +4,6 @@ import Hamb from "../public/images/hamb.svg"
 import FdcOne from "../public/images/fdcOne.svg"
 import FdcTwo from "../public/images/fdcTwo.svg"
 import FdcThree from "../public/images/fdcThree.svg"
-import Tableone from "../public/images/tableone.svg"
-import Tabletwo from "../public/images/tabletwo.svg"
-import Tablethree from "../public/images/tablethree.svg"
-import Localfachada from "../public/images/localfachada.svg"
-import LocalFachadaOne from "../public/images/localFachadaOne.svg"
-import LocalFachadaTwo from "../public/images/localFachadaTwo.svg"
 import Messagechat  from "../public/images/messagechat.svg"
 import Linkedin from "../public/images/linkedin.svg"
 import Instagram from "../public/images/instagram.svg"
@@ -52,12 +46,6 @@ export {
     FdcOne,
     FdcTwo,
     FdcThree,
-    Tableone,
-    Tabletwo,
-    Tablethree,
-    Localfachada,
-    LocalFachadaOne,
-    LocalFachadaTwo,
     Messagechat,
     Linkedin,
     Instagram,

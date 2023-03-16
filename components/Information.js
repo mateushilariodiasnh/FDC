@@ -41,9 +41,20 @@ export default function Information() {
                 </span>
 
                 <div className='relative items-center justify-center flex pt-32'>
-                    <Tableone className="absolute z-40 w-52 -top-10 left-4 lg:w-[351px] lg:top-80 2xl:left-60" />
-                    <Tabletwo className=" absolute z-30 w-72 top-12 right-1 lg:w-[520px] 2xl:top-20 2xl:right-40" />
-                    <Tablethree className=" relative z-20 mx-3 lg:w-[964px]" />
+
+                    <picture className="absolute z-40 w-52 -top-10 left-4 lg:w-[351px] lg:top-80 2xl:left-60">
+                        <source srcSet={"/images/IllustrativeTableOne.png".replace(".png", ".webp")} type="image/webp" />
+                        <img src={"/images/IllustrativeTableOne.png"} alt="primeira tabela" />
+                    </picture>
+                    <picture className="absolute z-30 w-72 top-12 right-1 lg:w-[520px] 2xl:top-20 2xl:right-40">
+                        <source srcSet={"/images/IllustrativeTableTwo.png".replace(".png", ".webp")} type="image/webp" />
+                        <img src={"/images/IllustrativeTableTwo.png"} alt="segunda tabela" />
+                    </picture>
+                    <picture className="relative z-20 mx-3 lg:w-[964px]">
+                        <source srcSet={"/images/IllustrativeTableThree.png".replace(".png", ".webp")} type="image/webp" />
+                        <img src={"/images/IllustrativeTableThree.png"} alt="terceira tabela" />
+                    </picture>
+
                 </div>
             </section>
         </section>

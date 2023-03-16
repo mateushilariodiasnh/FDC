@@ -3,11 +3,8 @@ import { Ft } from "./icons"
 import { Amba } from "./icons"
 import { Equis } from "./icons"
 import { FdcTwo } from "./icons"
-import { Localfachada } from "./icons"
-import { LocalFachadaOne } from "./icons"
-import { LocalFachadaTwo } from "./icons"
 import { Swiper, SwiperSlide } from "swiper/react"
-import { Pagination, A11y } from 'swiper';
+import { Pagination } from 'swiper';
 import 'swiper/css'
 import FieldsContent from "./FieldsContent"
 
@@ -86,17 +83,20 @@ export default function About() {
                     >
                         <SwiperSlide>
                             <picture>
-                                <Localfachada />
+                                <source srcSet={"/images/MainBeltOfTheBuilding.png".replace(".png", ".webp")} type="image/webp" />
+                                <img src={"/images/MainBeltOfTheBuilding.png"} alt="a faixada do prédio" />
                             </picture>
                         </SwiperSlide>
                         <SwiperSlide>
                             <picture>
-                                <LocalFachadaOne />
+                                <source srcSet={"/images/ExteriorOfTheBuilding.png".replace(".png", ".webp")} type="image/webp" />
+                                <img src={"/images/ExteriorOfTheBuilding.png"} alt="a parte externa do prédio" />
                             </picture>
                         </SwiperSlide>
                         <SwiperSlide>
                             <picture>
-                                <LocalFachadaTwo />
+                                <source srcSet={"/images/InteriorOfTheBuilding.png".replace(".png", ".webp")} type="image/webp" />
+                                <img src={"/images/InteriorOfTheBuilding.png"} alt="a parte interna do prédio" />
                             </picture>
                         </SwiperSlide>
                     </Swiper>

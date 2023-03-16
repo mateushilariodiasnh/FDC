@@ -3,6 +3,7 @@ import { Hamb } from './icons'
 import { useState } from "react"
 import { OpenClosed } from "./icons"
 import { ArrowSite } from "./icons"
+import Link from 'next/link'
 
 export default function Header() {
     const [open, setOpen] = useState(false)
@@ -25,12 +26,14 @@ export default function Header() {
                             <OpenClosed className="h-5 w-5 lg:hidden" />
                         </button>
                         <div className='flex items-center justify-center'>
-                            <button className='bg-tertiaryOrange hover:bg-primaryBlueDark text-white font-openSans text-1.5xl font-bold uppercase h-12 lg:h-auto w-full lg:w-68 pl-4  lg:px-8 lg:w-full my-auto lg:ml-0'>
-                                <span className="inline-flex items-center">
-                                    Quero começar agora
-                                    <ArrowSite className="lg:pr-4 h-12 lg:mr-0 w-16 lg:w-68 " />
+                            <Link href='#'>
+                                <span className='bg-tertiaryOrange hover:bg-primaryBlueDark h-12 lg:h-auto w-full lg:w-68 pl-4 lg:px-8 lg:w-full my-auto lg:ml-0'>
+                                    <span className="inline-flex items-center text-white font-openSans text-1.5xl font-bold uppercase">
+                                        Quero começar agora
+                                        <ArrowSite className="lg:pr-4 h-12 lg:mr-0 w-16 lg:w-68" />
+                                    </span>
                                 </span>
-                            </button>
+                            </Link>
                         </div>
                         <button className='bg-white mt-4 lg:mt-0 py-3 px-28 text-primaryBlueDark hover:text-white hover:bg-primaryBlueDark font-openSans text-1.5xl font-bold border border-primaryBlueDarkhover:bg-primaryBlueDark uppercase lg:py-3 lg:px-5 w-full lg:w-40 lg:h-12'><strong>Retomar</strong>
                         </button>

@@ -1,6 +1,5 @@
 import { Flecha } from "./icons"
 import { Corte } from "./icons"
-import KVwomanInFrontOfTheNotebook from '/public/images/KVwomanInFrontOfTheNotebook.png'
 
 export default function InitialSection() {
     return (
@@ -16,12 +15,13 @@ export default function InitialSection() {
                     </div>
                 </section>
                 <picture>
-                    <img className=' h-96 w-96 mt-0 lg:ml-3 px-6 lg:h-[648px] lg:w-[574px] relative z-30' src={KVwomanInFrontOfTheNotebook.src} alt="Uma mulher olhando para um notebook" />
+                    <source srcSet={"/images/WomanInFrontOfTheNotebook.png".replace(".png", ".webp")} type="image/webp" />
+                    <img className=' h-96 w-96 mt-0 lg:ml-3 px-6 lg:h-[648px] lg:w-[574px] relative z-30' src={"/images/WomanInFrontOfTheNotebook.png"} alt="Uma mulher olhando para um notebook" />
                 </picture>
                 <a href='#suaEmpresaEUnica' className='ml-auto mr-0 top-8 lg:block hidden'>
                     <Flecha className='h-9 w-9 absolute animate-bounce rotate-90' />
                 </a>
-                <Corte className='absolute z-20 -bottom-1'/>
+                <Corte className='absolute z-20 -bottom-1' />
             </section>
             <div className=' lg:hidden border-l-4 border-tertiaryOrange ml-6 mt-12 mb-20 font-openSans text-1.5xl'>
                 <p className='ml-6 mx-6 text-primaryBlueDark font-normal'>Cadastre-se e faça a <strong>avaliação de maturidade</strong> da sua empresa <strong>gratuitamente.</strong> </p>
