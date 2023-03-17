@@ -1,7 +1,4 @@
 import Fields from "./Field"
-import { Ft } from "./icons"
-import { Amba } from "./icons"
-import { Equis } from "./icons"
 import { FdcTwo } from "./icons"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination } from 'swiper';
@@ -54,17 +51,26 @@ export default function About() {
 
                 <div className='opacity-8 relative z-10 font-openSans'>
                     <p className='text-center text-white mt-12 '>*Segundo o ranking de Educação Executiva 2022 do Financial Times.</p>
-                    <button className='block mx-auto uppercase border border-white text-white hover:bg-white hover:text-[#005E83] h-12 my-12 text-center px-6'>Conheça mais</button>
+                    <button className='block mx-auto uppercase border border-white text-white hover:bg-white hover:text-primaryBlueDark ease-in-out duration-300 h-12 my-12 text-center px-6'>Conheça mais</button>
                 </div>
 
                 <div className=' grid grid-flow-row place-content-center bg-white items-center space-y-6 mx-6 md:min-w-sm lg:max-w-3.5xl mb-20 py-12 lg:flex lg:space-x-6 lg:py-15 lg:px-12 md:mx-auto relative z-10'>
                     <div>
-                        <div className='h-2 w-12 bg-[#FAA635] mb-4'></div>
+                        <div className='h-2 w-12 bg-tertiaryOrange mb-4'></div>
                         <p className='uppercase lg:pr-16 text-base font-nexaSlab'>Ranking e Certificações</p>
                     </div>
-                    <Ft className='h-14 lg:h-full mx-auto' />
-                    <Amba className='h-10 lg:h-full mx-auto' />
-                    <Equis className='h-10 lg:h-full mx-auto ' />
+                    <picture>
+                        <source srcSet={"/images/FTLogoWithRankingInformation.png".replace(".png", ".webp")} type="image/webp" />
+                        <img className="h-14 lg:h-full mx-auto" src={"/images/FTLogoWithRankingInformation.png"} alt="logo da FT com uma informação de ranking ao lado" />
+                    </picture>
+                    <picture>
+                        <source srcSet={"/images/AmbaLogo.png".replace(".png", ".webp")} type="image/webp" />
+                        <img className="h-10 lg:h-full mx-auto" src={"/images/AmbaLogo.png"} alt="logo da Amba" />
+                    </picture>
+                    <picture>
+                        <source srcSet={"/images/EquisLogo.webp".replace(".png", ".webp")} type="image/webp" />
+                        <img className="h-10 lg:h-full mx-auto" src={"/images/EquisLogo.webp"} alt="logo da Equis" />
+                    </picture>
                 </div>
 
                 <span className='lg:bottom-12 aria-hidden:"true" absolute px-2 items-center justify-center h-full w-full lg:h-[634px] lg:w-[1815px] mx-auto '>

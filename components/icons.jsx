@@ -11,9 +11,6 @@ import Youtube from "../public/images/youtube.svg"
 import Facebook from "../public/images/facebook.svg"
 import Twitter  from "../public/images/twitter.svg"
 import Spotify from "../public/images/spotify.svg"
-import Ft from "../public/images/ft.svg"
-import Amba  from "../public/images/amba.svg"
-import Equis from "../public/images/equis.svg"
 import Flecha from "../public/images/flecha.svg"
 import CardImageOne from "../public/images/cardImageOne.svg"
 import CardImageTwo from "../public/images/cardImageTwo.svg"
@@ -53,9 +50,6 @@ export {
     Facebook,
     Twitter,
     Spotify,
-    Ft,
-    Amba,
-    Equis,
     UpArrow,
     DownArrow,
     OpenClosed,

@@ -1,4 +1,4 @@
-import  {CardImageOne, CardImageTwo, CardImageThree, CardImageFour, CardImageFive}  from './icons'
+import  {CardImageOne, CardImageTwo, CardImageThree, CardImageFour, CardImageFive}  from '../icons'
 
 
 export default [{

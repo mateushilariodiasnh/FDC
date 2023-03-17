@@ -1,5 +1,5 @@
 import Depoimento from "./Depoimentos"
-import depositions from "./DepositionsData"
+import depositions from "./data/DepositionsData"
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css/pagination"
 import { Pagination, A11y, Navigation } from 'swiper';

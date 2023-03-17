@@ -21,7 +21,7 @@ export default function CardsMobille({data}) {
       >
           {data.map((item) => {
             return (
-              <div className="bullets" >
+              <div className="bullets" key={item.id}>
                 <SwiperSlide >
                   <Cards image={item.image} content={item.content} />
                 </SwiperSlide>

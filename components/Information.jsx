@@ -1,10 +1,7 @@
 import CardsMobille from "./CardsMobille";
 import Cards from "./Card";
 import { FdcOne } from "./icons";
-import { Tableone } from "./icons";
-import { Tabletwo } from "./icons";
-import { Tablethree } from "./icons";
-import Data from './CardsData.js'
+import Data from './data/CardsData.jsx'
 
 export default function Information() {
     return (
@@ -28,7 +25,7 @@ export default function Information() {
 
                     {Data.map(data => {
                         return (
-                            <article className=" hidden lg:block z-10">
+                            <article className=" hidden lg:block z-10" key={data.id}>
                                 <Cards image={data.image} content={data.content} />
                             </article>
                         )
@@ -46,7 +43,7 @@ export default function Information() {
                         <source srcSet={"/images/IllustrativeTableOne.png".replace(".png", ".webp")} type="image/webp" />
                         <img src={"/images/IllustrativeTableOne.png"} alt="primeira tabela" />
                     </picture>
-                    <picture className="absolute z-30 w-72 top-12 right-1 lg:w-[520px] 2xl:top-20 2xl:right-40">
+                    <picture className="absolute z-30 w-72 top-12 right-1 lg:w-[520px] 2xl:top-20 2xl:right-40 ">
                         <source srcSet={"/images/IllustrativeTableTwo.png".replace(".png", ".webp")} type="image/webp" />
                         <img src={"/images/IllustrativeTableTwo.png"} alt="segunda tabela" />
                     </picture>
