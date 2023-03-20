@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination } from 'swiper';
 import 'swiper/css'
 import FieldsContent from "./FieldsContent"
+import Link from "next/link";
 
 export default function About() {
     return (
@@ -51,7 +52,9 @@ export default function About() {
 
                 <div className='opacity-8 relative z-10 font-openSans'>
                     <p className='text-center text-white mt-12 '>*Segundo o ranking de Educação Executiva 2022 do Financial Times.</p>
-                    <button className='block mx-auto uppercase border border-white text-white hover:bg-white hover:text-primaryBlueDark ease-in-out duration-300 h-12 my-12 text-center px-6'>Conheça mais</button>
+                    <Link href='#'>
+                        <button className='block mx-auto uppercase border border-white text-white hover:bg-white hover:text-primaryBlueDark ease-in-out duration-300 h-12 my-12 text-center px-6'>Conheça mais</button>
+                    </Link>
                 </div>
 
                 <div className=' grid grid-flow-row place-content-center bg-white items-center space-y-6 mx-6 md:min-w-sm lg:max-w-3.5xl mb-20 py-12 lg:flex lg:space-x-6 lg:py-15 lg:px-12 md:mx-auto relative z-10'>

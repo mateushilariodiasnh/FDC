@@ -32,6 +32,7 @@ module.exports = {
       secondaryGrayDark: '#686366',
       secondaryGrayMedium: '#E4E2E2',
       tertiaryOrange: '#FAA635',
+      tertiaryGrayBlue: '#B9CAD2',
       white: '#FFFFFF',
       secondaryWhite: '#EFEDED',
       primaryBlue: '#2A9FBC',

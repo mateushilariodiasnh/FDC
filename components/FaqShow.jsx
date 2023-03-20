@@ -6,11 +6,9 @@ export default function FaqShow() {
         <ul>
             {Data.map((item) => {
                 return (
-
                     <li key={item.number}>
                         <Faq data={item} />
                     </li>
-
                 )
             }
             )

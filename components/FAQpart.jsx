@@ -2,13 +2,13 @@ import FaqShow from "./FaqShow"
 
 export default function FAQpart() {
   return (
-    <section className='lg:pt-32 mx-auto lg:max-w-7xl lg:flex lg:flex-row lg:space-x-32 '>
-      <div className='mx-6 '>
-        <div className='border-t-8 border-white m-6 lg:mt-0 lg:max-w-xs lg:mx-auto'></div>
-        <h2 className='uppercase text-primaryBlue text-center mt-10 mb-8 text-2xl lg:text-3.5xl font-nexaSlab'>faq </h2>
-        <div className='border-t-8 border-white m-6 lg:max-w-xs lg:mx-auto'></div>
+    <section className='lg:pt-32 justify-center lg:flex lg:flex-row lg:space-x-32 '>
+      <div className='mx-6'>
+        <div className='border-y-8 border-white m-6 lg:mt-0 lg:max-w-3.5xl lg:mx-auto'>
+          <h2 className='uppercase text-primaryBlue text-center mt-10 mb-8 text-3.5xl font-nexaSlab max-w-3.5xl'>faq </h2>
+        </div>
       </div>
-      <article className='mx-6 lg:pb-32 '>
+      <article className='mx-6 lg:pb-32 max-w-3xl'>
         <FaqShow className="font-openSans" />
       </article>
     </section>

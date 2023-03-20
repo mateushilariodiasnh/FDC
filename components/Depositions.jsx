@@ -23,8 +23,6 @@ export default function List() {
           spaceBetween={0}
           slidesPerView={1}
           pagination={{ clickable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}
           loop={true}
           breakpoints={{
             1024: {
@@ -42,7 +40,7 @@ export default function List() {
             return (
               <div className="bullets">
                 <SwiperSlide key={item.id}>
-                  <Depoimento data={item} />
+                  <Depoimento className='h-full' data={item} />
                 </SwiperSlide>
               </div>
             )

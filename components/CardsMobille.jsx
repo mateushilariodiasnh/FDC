@@ -10,7 +10,7 @@ export default function CardsMobille({data}) {
       <Swiper
         modules={[Pagination]}
         spaceBetween={16}
-        slidesPerView={1.5}
+        slidesPerView={1}
         pagination={{ clickable: true }}
         breakpoints={{
           640: {
@@ -21,11 +21,11 @@ export default function CardsMobille({data}) {
       >
           {data.map((item) => {
             return (
-              <div className="bullets" key={item.id}>
-                <SwiperSlide >
+              <article className="" key={item.id}>
+                <SwiperSlide key={item.id}>
                   <Cards image={item.image} content={item.content} />
                 </SwiperSlide>
-              </div>
+              </article>
             )
           })}
       </Swiper>

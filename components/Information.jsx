@@ -13,13 +13,13 @@ export default function Information() {
                 <div className='border-t-8 border-white m-6 lg:max-w-3.5xl lg:mx-auto'></div>
             </div>
             <section className='relative overflow-hidden'>
-                <div className='mx-6 mt-4 lg:grid lg:grid-cols-2 max-w-3.5xl lg:mx-auto lg:space-x-6 lg:space-y-6'>
+                <div className='mx-6 mt-4 lg:grid lg:grid-cols-2 max-w-3.5xl lg:mx-auto lg:space-x-6 lg:space-y-6 mb-24'>
                     <div className='lg:pl-6 z-10 font-openSans text-primaryGrayDark text-1.5xl'>
                         <p className='lg:pt-8 lg:grid-cols-1'>Avaliamos as <strong>lacunas do seu negócio</strong> para sugerir os conteúdos que precisam ser trabalhados e isso faz toda a diferença.</p>
                         <p className='lg:grid-cols-1 pt-3'>Seu time ainda pode adicionar módulos de interesse de acordo com a cultura e as necessidades pontuais da organização, formando uma <strong>grade curricular flexível.</strong> </p>
                     </div>
 
-                    <div className="block lg:hidden pl-6">
+                    <div className="Card block lg:hidden w-full overflow-hidden px-6">
                         <CardsMobille className="relative" data={Data} />
                     </div>
 

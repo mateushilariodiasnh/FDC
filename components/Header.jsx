@@ -11,11 +11,13 @@ export default function Header() {
     return (
         <header className='z-50 sticky top-0 left-0 bg-white py-4 lg:py-0 font-openSans'>
             <div className='flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full  flex-wrap w-full px-5 font-openSans'>
-                <div className='tems-center justify-between lg:space-x-4 flex space-y-2'>
-                    <LogoOneFDC className='h-8 block lg:hidden' />
-                    <LogoTwoFDC className="h-8 hidden lg:block" />
-                    <IconHeader className="h-8 hidden lg:block" />
-                </div>
+                <Link href='#'>
+                    <div className='tems-center justify-between lg:space-x-4 flex space-y-2'>
+                        <LogoOneFDC className='h-8 block lg:hidden' />
+                        <LogoTwoFDC className="h-8 hidden lg:block" />
+                        <IconHeader className="h-8 hidden lg:block" />
+                    </div>
+                </Link>
                 <button onClick={() => setOpen(!open)}>
                     <Hamb className="h-5 cursor-pointer lg:hidden" />
                 </button>
@@ -26,17 +28,17 @@ export default function Header() {
                             <OpenClosed className="h-5 w-5 lg:hidden" />
                         </button>
                         <div className='flex items-center justify-center'>
-                            <Link href='#'>
-                                <button className='bg-tertiaryOrange hover:bg-primaryBlueDark flex justify-between ease-in-out duration-300 h-auto w-full'>
-                                    <span className="inline-flex items-center text-white font-openSans text-1.5xl font-bold uppercase px-6 my-auto">
-                                        Quero começar agora
-                                    </span>
-                                    <ArrowSite className="h-12" />
-                                </button>
+                            <Link href='#' className='w-full bg-tertiaryOrange hover:bg-primaryBlueDark flex justify-between ease-in-out duration-300 h-auto'>
+                                <span className="inline-flex items-center text-white font-openSans text-1.5xl font-bold uppercase mx-auto lg:px-8 my-auto">
+                                    Quero começar agora
+                                </span>
+                                <ArrowSite className="h-12" />
                             </Link>
                         </div>
-                        <button className='bg-white mt-4 lg:mt-0 py-3 px-28 text-primaryBlueDark hover:text-white hover:bg-primaryBlueDark font-openSans text-1.5xl font-bold border border-primaryBlueDarkhover:bg-primaryBlueDark uppercase lg:py-3 lg:px-5 w-full lg:w-40 lg:h-12 ease-in-out duration-300'><strong>Retomar</strong>
-                        </button>
+                        <Link href='#'>
+                            <button className='bg-white mt-4 lg:mt-0 py-3 px-28 text-primaryBlueDark hover:text-white hover:bg-primaryBlueDark font-openSans text-1.5xl font-bold border border-primaryBlueDarkhover:bg-primaryBlueDark uppercase lg:py-3 lg:px-5 w-full lg:w-40 lg:h-12 ease-in-out duration-300'><strong>Retomar</strong>
+                            </button>
+                        </Link>
                     </div>
                 </nav>
             </div>
