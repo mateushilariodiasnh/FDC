@@ -6,7 +6,7 @@ import { Facebook } from './icons'
 import { Twitter } from './icons'
 import { Spotify } from './icons'
 
-export default function Foother() {
+export default function Foother(): JSX.Element {
     return (
         <footer>
             <div className='bg-white text-center pt-10 text-primaryGrayDark mb-10 lg:mb-0 lg:flex lg:py-16 lg:px-4 lg:items-center lg:justify-center'>
@@ -40,7 +40,7 @@ export default function Foother() {
                     </a>
                 </div>
                 <div className='border-t border-secondaryGrayMedium m-6 lg:my-6 lg:mx-0 xl:m-6'></div>
-                <div className='items-center space-y-6 lg:flex lg:space-x-2 '>
+                <div className=' lg:flex lg:space-x-2 items-center space-y-6 flex flex-col lg:flex-row pb-8'>
                     <p className='text-1.5xl font-black font-nexaSlab'>Ranking e Certificações</p>
                     <picture>
                         <source srcSet={"/images/FTLogoWithRankingInformation.png".replace(".png", ".webp")} type="image/webp" />

@@ -4,7 +4,7 @@ export default function Cards({ className, image: Image, content }) {
             <div className="mb-4 flex items-center justify-center">
                 {Image && <Image className='h-14 mx-auto' />}
             </div>
-            <div className="text-1.5xl font-openSans text-center">
+            <div className="text-1.5xl mx-2 font-openSans text-center">
                 {content}
             </div>
         </div>

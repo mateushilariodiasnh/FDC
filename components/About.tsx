@@ -57,7 +57,7 @@ export default function About() {
                     </Link>
                 </div>
 
-                <div className=' grid grid-flow-row place-content-center bg-white items-center space-y-6 mx-6 md:min-w-sm lg:max-w-3.5xl mb-20 py-12 lg:flex lg:space-x-6 lg:py-15 lg:px-12 md:mx-auto relative z-10'>
+                <div className=' grid grid-flow-row place-content-center bg-white items-center space-y-6 mx-6 md:min-w-sm lg:max-w-3.5xl mb-20 py-12 lg:flex lg:space-x-6 lg:py-16 lg:px-12 md:mx-auto relative z-10'>
                     <div>
                         <div className='h-2 w-12 bg-tertiaryOrange mb-4'></div>
                         <p className='uppercase lg:pr-16 text-base font-nexaSlab'>Ranking e Certificações</p>
@@ -68,11 +68,11 @@ export default function About() {
                     </picture>
                     <picture>
                         <source srcSet={"/images/AmbaLogo.png".replace(".png", ".webp")} type="image/webp" />
-                        <img className="h-10 lg:h-full mx-auto" src={"/images/AmbaLogo.png"} alt="logo da Amba" />
+                        <img className="h-11 lg:h-full mx-auto" src={"/images/AmbaLogo.png"} alt="logo da Amba" />
                     </picture>
                     <picture>
                         <source srcSet={"/images/EquisLogo.webp".replace(".png", ".webp")} type="image/webp" />
-                        <img className="h-10 lg:h-full mx-auto" src={"/images/EquisLogo.webp"} alt="logo da Equis" />
+                        <img className="h-16 lg:h-full mx-auto" src={"/images/EquisLogo.webp"} alt="logo da Equis" />
                     </picture>
                 </div>
 

@@ -13,13 +13,13 @@ export default function Information() {
                 <div className='border-t-8 border-white m-6 lg:max-w-3.5xl lg:mx-auto'></div>
             </div>
             <section className='relative overflow-hidden'>
-                <div className='mx-6 mt-4 lg:grid lg:grid-cols-2 max-w-3.5xl lg:mx-auto lg:space-x-6 lg:space-y-6 mb-24'>
-                    <div className='lg:pl-6 z-10 font-openSans text-primaryGrayDark text-1.5xl'>
+                <div className='mt-4 lg:grid lg:grid-cols-2 max-w-3.5xl lg:mx-auto lg:space-x-6 lg:space-y-6 mb-24'>
+                    <div className='lg:pl-6 mx-6 z-10 font-openSans text-primaryGrayDark text-1.5xl'>
                         <p className='lg:pt-8 lg:grid-cols-1'>Avaliamos as <strong>lacunas do seu negócio</strong> para sugerir os conteúdos que precisam ser trabalhados e isso faz toda a diferença.</p>
                         <p className='lg:grid-cols-1 pt-3'>Seu time ainda pode adicionar módulos de interesse de acordo com a cultura e as necessidades pontuais da organização, formando uma <strong>grade curricular flexível.</strong> </p>
                     </div>
 
-                    <div className="Card block lg:hidden w-full overflow-hidden px-6">
+                    <div className="Card block lg:hidden w-full overflow-hidden ml-6 pl-6">
                         <CardsMobille className="relative" data={Data} />
                     </div>
 
@@ -37,17 +37,17 @@ export default function Information() {
                     <FdcOne className='-z-10' />
                 </span>
 
-                <div className='relative items-center justify-center flex pt-32'>
+                <div className='relative items-center justify-center flex pt-40'>
 
-                    <picture className="absolute z-40 w-52 -top-10 left-4 lg:w-[351px] lg:top-80 2xl:left-60">
+                    <picture className="absolute z-40 w-64 -top-10 left-4 lg:w-[351px] lg:top-80 2xl:left-60">
                         <source srcSet={"/images/IllustrativeTableOne.png".replace(".png", ".webp")} type="image/webp" />
                         <img src={"/images/IllustrativeTableOne.png"} alt="primeira tabela" />
                     </picture>
-                    <picture className="absolute z-30 w-72 top-12 right-1 lg:w-[520px] 2xl:top-20 2xl:right-40 ">
+                    <picture className="absolute z-30 w-80 top-12 left-8 right-1 lg:w-[520px] 2xl:top-20 2xl:right-40 ">
                         <source srcSet={"/images/IllustrativeTableTwo.png".replace(".png", ".webp")} type="image/webp" />
                         <img src={"/images/IllustrativeTableTwo.png"} alt="segunda tabela" />
                     </picture>
-                    <picture className="relative z-20 mx-3 lg:w-[964px]">
+                    <picture className="relative z-20 w-full top-6 mx-3 lg:w-[964px]">
                         <source srcSet={"/images/IllustrativeTableThree.png".replace(".png", ".webp")} type="image/webp" />
                         <img src={"/images/IllustrativeTableThree.png"} alt="terceira tabela" />
                     </picture>

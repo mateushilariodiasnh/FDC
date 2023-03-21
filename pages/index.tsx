@@ -7,7 +7,7 @@ import FAQpart from '../components/FAQpart'
 import Merchan from '../components/Merchan'
 import Foother from '../components/Foother'
 
-export default function Home() {
+export default function Home(): JSX.Element {
 
   return (
     <>

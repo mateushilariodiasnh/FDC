@@ -2,7 +2,7 @@ import Link from "next/link"
 import { Flecha } from "./icons"
 import { Corte } from "./icons"
 
-export default function InitialSection() {
+export default function InitialSection(): JSX.Element {
     return (
         <div>
             <section className=" bg-InitialImage relative z-10 bg-cover lg:grid grid-cols-2 lg:itens-center lg:justify-center 2xl:mx-auto pb-3 lg:pb-32">

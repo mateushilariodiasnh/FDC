@@ -10,7 +10,7 @@ export default function CardsMobille({data}) {
       <Swiper
         modules={[Pagination]}
         spaceBetween={16}
-        slidesPerView={1}
+        slidesPerView={1.20}
         pagination={{ clickable: true }}
         breakpoints={{
           640: {
