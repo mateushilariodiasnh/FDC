@@ -1,6 +1,6 @@
 import FaqShow from "./FaqShow"
 
-export default function FAQpart() {
+export default function FAQpart(): JSX.Element {
   return (
     <section className='pt-16 lg:pt-32 justify-center lg:flex lg:flex-row lg:space-x-32 '>
       <div className='mx-6'>
@@ -9,7 +9,7 @@ export default function FAQpart() {
         </div>
       </div>
       <article className='lg:pb-32 max-w-2xl'>
-        <FaqShow className="font-openSans" />
+        <FaqShow />
       </article>
     </section>
   )

@@ -1,6 +1,6 @@
 import Link from "next/link"
-import { Flecha } from "./icons"
-import { Corte } from "./icons"
+import { Arrow } from "./icons"
+import { Cut } from "./icons"
 
 export default function InitialSection(): JSX.Element {
     return (
@@ -21,11 +21,11 @@ export default function InitialSection(): JSX.Element {
                     <source srcSet={"/images/WomanInFrontOfTheNotebook.png".replace(".png", ".webp")} type="image/webp" />
                     <img className='lg:ml-3 px-6 lg:h-[648px] lg:w-[574px] mx-auto relative z-30' src={"/images/WomanInFrontOfTheNotebook.png"} alt="Uma mulher olhando para um notebook" />
                 </picture>
-                <Corte className='absolute z-20 -bottom-1' />
+                <Cut className='absolute z-20 -bottom-1' />
             </section>
             <Link href='#suaEmpresaEUnica'>
                 <button className='mx-auto lg:block hidden'>
-                    <Flecha className='h-9 w-9 relative animate-bounce rotate-90' />
+                    <Arrow className='h-9 w-9 relative animate-bounce rotate-90' />
                 </button>
             </Link>
             <div className=' lg:hidden border-l-4 border-tertiaryOrange ml-6 mt-12 mb-20 font-openSans text-1.5xl'>
@@ -36,7 +36,7 @@ export default function InitialSection(): JSX.Element {
             </div>
             <Link href="#suaEmpresaEUnica">
                 <button className="block mx-auto lg:hidden">
-                    <Flecha className='h-9 w-9 buttom-8 animate-bounce m-auto rotate-90' />
+                    <Arrow className='h-9 w-9 buttom-8 animate-bounce m-auto rotate-90' />
                 </button>
             </Link>
         </div>

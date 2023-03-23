@@ -1,4 +1,11 @@
-export default [{
+export interface IDataDepositions {
+    id: number;
+    text: string;
+    author: string;
+    ocupation: string;
+}
+
+export const dataDepositions: IDataDepositions[] = [{
     id: 0,
     text: "A escolha baseada na qualidade e no reconhecimento que a FDC possui. É uma qualidade de nível internacional e que tem um conhecimento muito amplo e grande do mercado brasileiro e latino-americano e dentro das nossas necessidades, isso era chave.”",
     author: "Leandro Jasiocha",

@@ -5,8 +5,8 @@ import { OpenClosed } from "./icons"
 import { ArrowSite } from "./icons"
 import Link from 'next/link'
 
-export default function Header() {
-    const [open, setOpen] = useState(false)
+export default function Header(): JSX.Element {
+    const [open, setOpen] = useState<boolean>(false)
 
     return (
         <header className='z-50 sticky top-0 left-0 bg-white py-4 lg:py-0 font-openSans'>
@@ -18,13 +18,13 @@ export default function Header() {
                         <IconHeader className="h-8 hidden lg:block" />
                     </div>
                 </Link>
-                <button onClick={() => setOpen(!open)}>
+                <button onClick={(): void => setOpen(!open)}>
                     <Hamb className="h-5 cursor-pointer lg:hidden" />
                 </button>
 
                 <nav className={`${open ? "-top-1 left-0 absolute lg:relative bg-white " : "hidden"}  px-4 pb-6 w-full lg:flex lg:items-center lg:w-auto lg:justify-between py-4 lg:my-auto`}>
                     <div className='lg:flex lg:justify-between lg:flex-row-reverse lg:space-x-4'>
-                        <button className={`flex justify-self-end py-6 mr-0 ml-auto lg:hidden`} onClick={() => setOpen(!open)}>
+                        <button className={`flex justify-self-end py-6 mr-0 ml-auto lg:hidden`} onClick={(): void => setOpen(!open)}>
                             <OpenClosed className="h-5 w-5 lg:hidden" />
                         </button>
                         <div className='flex items-center justify-center'>

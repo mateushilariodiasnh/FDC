@@ -11,7 +11,7 @@ import Youtube from "../public/images/youtube.svg"
 import Facebook from "../public/images/facebook.svg"
 import Twitter  from "../public/images/twitter.svg"
 import Spotify from "../public/images/spotify.svg"
-import Flecha from "../public/images/flecha.svg"
+import Arrow from "../public/images/arrow.svg"
 import CardImageOne from "../public/images/cardImageOne.svg"
 import CardImageTwo from "../public/images/cardImageTwo.svg"
 import CardImageThree from "../public/images/cardImageThree.svg"
@@ -26,13 +26,13 @@ import ArrowSite from "../public/images/arrowSite.svg"
 import QuotationMarks from "../public/images/quotationMarks.svg"
 import IconHeader from "../public/images/IconHeader.svg"
 import DownArrowList from "../public/images/DownArrowList.svg"
-import Corte from "../public/images/corte.svg"
+import Cut from "../public/images/cut.svg"
 
 export {
     LogoOneFDC,
     LogoTwoFDC,
     Hamb,
-    Flecha,
+    Arrow,
     CardImageOne,
     CardImageTwo,
     CardImageThree,
@@ -57,5 +57,5 @@ export {
     QuotationMarks,
     IconHeader,
     DownArrowList,
-    Corte,
+    Cut,
 }

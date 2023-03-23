@@ -3,8 +3,13 @@ import "swiper/css/pagination"
 import { Pagination, A11y } from 'swiper';
 import 'swiper/css'
 import Cards from './Card'
+import { IDataCard } from "./data/CardsData";
 
-export default function CardsMobille({data}) {
+interface ICardProps {
+  data: IDataCard[];
+}
+
+export default function CardsMobille({data}: ICardProps): JSX.Element {
   return (
     <div className='lg:hidden'>
       <Swiper
@@ -23,7 +28,7 @@ export default function CardsMobille({data}) {
             return (
               <article className="" key={item.id}>
                 <SwiperSlide key={item.id}>
-                  <Cards image={item.image} content={item.content} />
+                  <Cards data={item} />
                 </SwiperSlide>
               </article>
             )

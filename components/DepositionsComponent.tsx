@@ -1,6 +1,12 @@
 import { QuotationMarks } from "./icons";
+import { IDataDepositions } from "./data/DepositionsData";
 
-export default function depoimentos({ className, data }) {
+interface IDataPropsDepositions {
+    data: IDataDepositions;
+    className: string;
+}
+
+export default function DepositionsComponent({ className, data }: IDataPropsDepositions): JSX.Element{
 
     return (
         <div className={className}>

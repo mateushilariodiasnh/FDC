@@ -1,15 +1,15 @@
-import Depoimento from "./Depoimentos"
-import depositions from "./data/DepositionsData"
+import DepositionsComponent from "./DepositionsComponent"
+import { dataDepositions } from "./data/DepositionsData"
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css/pagination"
 import { Pagination, A11y, Navigation } from 'swiper';
 import 'swiper/css'
 import { useEffect, useState } from 'react';
 
-export default function List() {
-  const [mounted, setMounted] = useState(false);
+export default function List(): JSX.Element {
+  const [mounted, setMounted] = useState<boolean>(false);
 
-  useEffect(() => {
+  useEffect((): void => {
     setMounted(true);
   }, []);
 
@@ -36,11 +36,11 @@ export default function List() {
           }}
 
         >
-          {depositions.map((item) => {
+          {dataDepositions.map((item) => {
             return (
-              <div className="bullets">
-                <SwiperSlide key={item.id}>
-                  <Depoimento className='h-full' data={item} />
+              <div className="bullets" key={item.id}>
+                <SwiperSlide>
+                  <DepositionsComponent className='h-full' data={item} />
                 </SwiperSlide>
               </div>
             )

@@ -1,4 +1,12 @@
-export default function Cards({ className, image: Image, content }) {
+import { IDataCard } from "./data/CardsData"
+
+ interface ICardProps {
+    data: IDataCard;
+    className?: string;
+}
+
+export default function Cards({ className, data }: ICardProps): JSX.Element {
+    const { image: Image, content, id} = data
     return (
         <div className={"bg-white h-full text-primaryGrayDark flex-col justify-center items-center mt-10 lg:mt-0 border-[1px] border-secondaryGrayMedium py-8 space-y-center " + className}>
             <div className="mb-4 flex items-center justify-center">

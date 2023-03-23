@@ -1,9 +1,9 @@
 import CardsMobille from "./CardsMobille";
 import Cards from "./Card";
 import { FdcOne } from "./icons";
-import Data from './data/CardsData.jsx'
+import { dataCards } from './data/CardsData'
 
-export default function Information() {
+export default function Information(): JSX.Element {
     return (
         <section>
             <div id='suaEmpresaEUnica' className='text-center font-nexaSlab mt-16'>
@@ -20,13 +20,13 @@ export default function Information() {
                     </div>
 
                     <div className="Card block lg:hidden w-full overflow-hidden ml-6 pl-6">
-                        <CardsMobille className="relative" data={Data} />
+                        <CardsMobille className="relative" data={dataCards} />
                     </div>
 
-                    {Data.map(data => {
+                    {dataCards.map(dataCard => {
                         return (
-                            <article className=" hidden lg:block z-10" key={data.id}>
-                                <Cards image={data.image} content={data.content} />
+                            <article className=" hidden lg:block z-10" key={dataCard.id}>
+                                <Cards data={dataCard} />
                             </article>
                         )
                     })}

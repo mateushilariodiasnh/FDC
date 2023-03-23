@@ -1,7 +1,12 @@
 import  {CardImageOne, CardImageTwo, CardImageThree, CardImageFour, CardImageFive}  from '../icons'
 
+export interface IDataCard {
+    id: number;
+    image: React.FC<React.SVGProps<SVGSVGElement>|HTMLImageElement>;
+    content: JSX.Element;
+}
 
-export default [{
+export const dataCards: IDataCard[] = [{
     id: 0,
     image: CardImageOne,
     content: <p><strong>Learn:</strong> mais de <strong>220 módulos,</strong> distribuídos em 7 dimensões empresariais</p>,

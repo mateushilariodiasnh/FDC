@@ -1,10 +1,10 @@
-import Data from "./data/Faq";
+import { dataFaq } from "./data/Faq";
 import Faq from "./FaqComponents";
 
-export default function FaqShow() {
+export default function FaqShow(): JSX.Element {
     return (
         <ul>
-            {Data.map((item) => {
+            {dataFaq.map((item) => {
                 return (
                     <li key={item.number}>
                         <Faq data={item} />

@@ -2,7 +2,7 @@ import List from "./Depositions";
 import { DownArrowList } from "./icons";
 import { FdcThree } from "./icons";
 
-export default function DepoimentosPart() {
+export default function DepoimentosPart(): JSX.Element {
     return (
         <section className='bg-white relative overflow-hidden'>
             <div className='pt-10 relative z-10'>
@@ -16,7 +16,7 @@ export default function DepoimentosPart() {
                 <div className='teste-buttom-prev'>
                     <DownArrowList className=" h-4 rotate-90 hidden lg:block" />
                 </div>
-                <List className="font-openSans" />
+                <List />
                 <div className='teste-buttom-next '>
                     <DownArrowList className="h-4 -rotate-90 hidden lg:block" />
                 </div>

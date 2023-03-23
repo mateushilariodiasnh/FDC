@@ -6,7 +6,7 @@ import 'swiper/css'
 import FieldsContent from "./FieldsContent"
 import Link from "next/link";
 
-export default function About() {
+export default function About(): JSX.Element {
     return (
         <section className='relative overflow-hidden'>
             <div className='bg-primaryGrayDark pt-16'>
