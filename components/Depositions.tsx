@@ -26,6 +26,7 @@ export default function List(): JSX.Element {
           loop={true}
           breakpoints={{
             1024: {
+              spaceBetween: 16,
               slidesPerView: 3,
               navigation: {
                 prevEl: '.teste-buttom-prev',

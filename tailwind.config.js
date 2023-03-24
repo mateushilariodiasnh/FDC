@@ -14,12 +14,24 @@ module.exports = {
         '2.5xl': '44.375',
       },
       fontSize: {
+        '4.5xl': ['2.5rem', {
+          lineHeight: '3rem',
+          letterSpacing: '0.02rem',
+        }],
+        '4.1xl': ['2rem', {
+          lineHeight: '2.8rem',
+          letterSpacing: '0.02rem',
+        }],
         '3.5xl': ['1.5rem', {
           lineHeight: '2.1rem',
           letterSpacing: '0.02rem',
         }],
         '1.5xl': ['1rem', {
           lineHeight: '1.4rem',
+          letterSpacing: '0.02rem',
+        }],
+        '1xl': ['1.125rem', {
+          lineHeight: '1.575rem',
           letterSpacing: '0.02rem',
         }],
       },
