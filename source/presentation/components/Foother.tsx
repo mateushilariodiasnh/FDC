@@ -9,8 +9,8 @@ import { Spotify } from './icons'
 export default function Foother(): JSX.Element {
     return (
         <footer>
-            <div className='bg-white text-center pt-10 text-primaryGrayDark mb-10 lg:mb-0 lg:flex lg:py-16 lg:px-4 lg:items-center lg:justify-center pb-8'>
-                <address className='text-1.5xl'>
+            <div className='bg-white text-center pt-10 text-primaryGrayDark mb-10 lg:mb-0 lg:flex lg:py-16 lg:px-4 lg:items-center lg:justify-center pb-8 lg:text-start lg:mx-16 '>
+                <address className='text-1.5xl '>
                     <p className='pb-4 font-black font-nexaSlab'>Fale conosco</p>
                     <a href='telto:0800 941 9200' className='font-normal font-openSans'>0800 941 9200</a><br></br>
                     <a href='mailto:atendimento@fdc.org.br' className='font-normal font-openSans'>atendimento@fdc.org.br</a>
@@ -41,7 +41,7 @@ export default function Foother(): JSX.Element {
                 </div>
                 <div className='border-t border-secondaryGrayMedium m-6 lg:my-6 lg:mx-0 xl:m-6'></div>
                 <div className='lg:space-x-6 items-center space-y-6 flex flex-col lg:flex-row'>
-                    <p className='text-1.5xl font-black font-nexaSlab'>Ranking e Certificações</p>
+                    <p className='lg:ml-12 lg:text-center text-1.5xl font-black font-nexaSlab'>Ranking e Certificações</p>
                     <picture>
                         <source srcSet={"/images/FTLogoWithRankingInformation.png".replace(".png", ".webp")} type="image/webp" />
                         <img className="h-14 mx-auto" src={"/images/FTLogoWithRankingInformation.png"} alt="logo da FT com uma informação de ranking ao lado" />

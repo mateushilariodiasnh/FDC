@@ -14,11 +14,11 @@ export default function DepoimentosPart(): JSX.Element {
 
             <div className='bullets flex items-center justify-center lg:max-w-7xl mx-auto pb-20 relative z-10'>
                 <div className='teste-buttom-prev relative z-20 lg:mr-7'>
-                    <DownArrowList className=" h-4 rotate-90 hidden lg:block" />
+                    <DownArrowList className=" h-3 rotate-90 hidden lg:block" />
                 </div>
                 <List />
                 <div className='teste-buttom-next relative z-20 lg:ml-7'>
-                    <DownArrowList className="h-4 -rotate-90 hidden lg:block" />
+                    <DownArrowList className="h-3 -rotate-90 hidden lg:block" />
                 </div>
                 <span className='-bottom-96 lg:-bottom-96 aria-hidden:"true" absolute px-2 items-center justify-center h-full w-[605px] lg:h-[634px] lg:w-[1815px] mx-auto '>
                     <FdcThree className='-z-10' />

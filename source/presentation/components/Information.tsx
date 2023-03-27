@@ -33,7 +33,7 @@ export default function Information(): JSX.Element {
 
                 </div>
 
-                <span className='lg:bottom-72 aria-hidden:"true" absolute px-2 items-center justify-center h-full w-full lg:h-[634px] lg:w-[1815px] mx-auto '>
+                <span className='lg:top-80 aria-hidden:"true" absolute px-2 items-center justify-center h-full w-full mx-auto '>
                     <FdcOne className='-z-10' />
                 </span>
 
@@ -43,7 +43,7 @@ export default function Information(): JSX.Element {
                         <source srcSet={"/images/IllustrativeTableOne.png".replace(".png", ".webp")} type="image/webp" />
                         <img src={"/images/IllustrativeTableOne.png"} alt="primeira tabela" />
                     </picture>
-                    <picture className="absolute z-30 w-80 top-12 left-8 right-1 lg:right-0 lg:left-96 lg:w-[520px] 2xl:top-20 2xl:right-40 ">
+                    <picture className="absolute z-30 w-80 top-12 left-8 right-1 lg:right-0 lg:left-auto lg:w-[520px] 2xl:top-20 2xl:right-40 ">
                         <source srcSet={"/images/IllustrativeTableTwo.png".replace(".png", ".webp")} type="image/webp" />
                         <img src={"/images/IllustrativeTableTwo.png"} alt="segunda tabela" />
                     </picture>

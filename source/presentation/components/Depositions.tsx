@@ -21,13 +21,15 @@ export default function List(): JSX.Element {
           modules={[Pagination, A11y, Navigation]}
           navigation
           spaceBetween={0}
+          centeredSlides= {false}
           slidesPerView={1}
           pagination={{ clickable: true }}
           loop={true}
           breakpoints={{
             1024: {
-              spaceBetween: 16,
+              spaceBetween: 20,
               slidesPerView: 3,
+              centeredSlides: true,
               navigation: {
                 prevEl: '.teste-buttom-prev',
                 nextEl: '.teste-buttom-next',
