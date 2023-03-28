@@ -27,7 +27,7 @@ export default function List(): JSX.Element {
           loop={true}
           breakpoints={{
             1024: {
-              spaceBetween: 20,
+              spaceBetween: 16,
               slidesPerView: 3,
               centeredSlides: true,
               navigation: {
@@ -41,7 +41,7 @@ export default function List(): JSX.Element {
         >
           {dataDepositions.map((item) => {
             return (
-              <div className="bullets" key={item.id}>
+              <div key={item.id}>
                 <SwiperSlide>
                   <DepositionsComponent className='h-full' data={item} />
                 </SwiperSlide>

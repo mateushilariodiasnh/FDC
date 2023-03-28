@@ -13,7 +13,7 @@ export default function InitialSection(): JSX.Element {
                     <div className='hidden lg:block border-l-4 border-tertiaryOrange ml-8 mt-16 mb-20 text-3.5xl font-openSans'>
                         <p className='ml-8 mr-10 pb-2 '>Cadastre-se e faça a <strong>avaliação de maturidade</strong> da sua empresa <strong>gratuitamente.</strong> </p>
                         <Link href='#'>
-                            <button className='uppercase text-white bg-primaryBlue hover:bg-white hover:text-primaryBlueDark ease-in-out duration-300 text-1.5xl font-openSans py-3 px-8 mt-4 ml-6'>Quero começar agora</button>
+                            <button className='uppercase text-white bg-primaryBlue hover:bg-white hover:text-primaryBlueDark ease-in-out duration-300 text-1.5xl font-openSans font-bold py-3 px-8 mt-4 ml-6'>Quero começar agora</button>
                         </Link>
                     </div>
                 </section>
@@ -25,7 +25,7 @@ export default function InitialSection(): JSX.Element {
             </section>
             <Link href='#suaEmpresaEUnica'>
                 <button className='mx-auto lg:block hidden'>
-                    <Arrow className='h-9 w-9 relative animate-bounce rotate-90' />
+                    <Arrow className='bottom-80 z-20 h-9 w-9 relative animate-bounce rotate-90' />
                 </button>
             </Link>
             <div className=' lg:hidden border-l-4 border-tertiaryOrange ml-6 mt-12 mb-20 font-openSans text-1.5xl'>

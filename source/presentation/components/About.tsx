@@ -1,5 +1,5 @@
 import Fields from "./Field"
-import { FdcTwo } from "./icons"
+import { FdcTwoWaterMark } from "./icons"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination } from 'swiper';
 import 'swiper/css'
@@ -15,7 +15,7 @@ export default function About(): JSX.Element {
                 </div>
                 <p className='text-white text-1.5xl mx-6 mt-14 lg:max-w-xl lg:mx-auto font-openSans  '><strong>A FDC impulsiona o desenvolvimento</strong> das organizações com uma abordagem focada em resultados, inclusão e sustentabilidade para os negócios. Olhamos para a real necessidade, bem como para os desafios e objetivos das organizações e de seus profissionais, contribuindo para o aprimoramento das competências gerenciais e individuais e a melhoria constante da governança, gestão e dos resultados. </p>
                 <p className='text-white text-1.5xl mt-2 mx-6 lg:max-w-xl lg:mx-auto font-openSans'><strong>Nossas soluções geram impacto e compreendem temáticas globais,</strong> acompanhando as transformações do mundo e da sociedade na velocidade que o mercado exige.</p>
-                <div className=' mx-14 text-white pt-12 lg:px-auto lg:max-w-3.5xl lg:mx-auto'>
+                <div className=' mx-14 text-white relative z-20 pt-12 lg:px-auto lg:max-w-3.5xl lg:mx-auto'>
                     <div className='lg:grid gap-1 lg:grid-cols-4 lg:space-x-6'>
                         <article>
                             <Fields ><h3>45 anos</h3></Fields>
@@ -77,7 +77,7 @@ export default function About(): JSX.Element {
                 </div>
 
                 <span className='lg:bottom-12 aria-hidden:"true" absolute px-2 items-center justify-center h-full w-full lg:h-[634px] lg:w-full mx-auto '>
-                    <FdcTwo className='-z-10' />
+                    <FdcTwoWaterMark className='-z-10' />
                 </span>
 
                 <div className='bullets'>

@@ -45,16 +45,21 @@
 .bullets .swiper-pagination-bullet{
   @apply lg:hidden
 }
-.bullets .swiper-pagination-bullet-active{
-  @apply relative bg-tertiaryOrange w-4 h-2
+.swiper .swiper-pagination .swiper-pagination-bullet-active{
+  @apply relative bg-tertiaryOrange w-4 h-2;
 }
 .swiper-wrapper .swiper-slide {
   @apply h-auto;
 }
-.bullets .swiper-pagination {
-  /* background-color: black; */
+.cardsInformation .swiper .swiper-pagination {
   width: 100%;
-  bottom: 50%;
+  position: relative;
+  margin-top: 48px;
+}
+.depositions .swiper .swiper-pagination {
+  width: 100%;
+  position: relative;
+  margin-top: 16px;
 }
 html {
   @apply scroll-smooth;

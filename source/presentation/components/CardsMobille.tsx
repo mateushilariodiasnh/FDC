@@ -17,6 +17,7 @@ export default function CardsMobille({data}: ICardProps): JSX.Element {
         spaceBetween={16}
         slidesPerView={1.20}
         pagination={{ clickable: true }}
+        centeredSlides={true}
         breakpoints={{
           640: {
             slidesPerView: 2.7,
@@ -26,7 +27,7 @@ export default function CardsMobille({data}: ICardProps): JSX.Element {
       >
           {data.map((item) => {
             return (
-              <article className="" key={item.id}>
+              <article key={item.id}>
                 <SwiperSlide key={item.id}>
                   <Cards data={item} />
                 </SwiperSlide>

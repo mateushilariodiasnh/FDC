@@ -10,7 +10,7 @@ export default function DepositionsComponent({ className, data }: IDataPropsDepo
 
     return (
         <div className={className}>
-            <div className="bg-white border-2 border-secondaryGrayMedium text-primaryGrayDark mx-12 flex flex-col h-full lg:w-full">
+            <div className="bg-white border-2 border-secondaryGrayMedium text-primaryGrayDark flex flex-col h-full lg:w-full">
                 <div className=" border-t-8 border-tertiaryOrange mx-6 mt-6 lg:mx-8"></div>
                 <div className="relative">
                     <QuotationMarks className="h-7 w-10 absolute top-5 left-8 z-10" />

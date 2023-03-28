@@ -3,7 +3,7 @@ import Faq from "./FaqComponents";
 
 export default function FaqShow(): JSX.Element {
     return (
-        <ul>
+        <ul className="divide-y divide-tertiaryGrayBlue">
             {dataFaq.map((item) => {
                 return (
                     <li key={item.number}>

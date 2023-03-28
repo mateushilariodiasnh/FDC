@@ -1,7 +1,7 @@
 import { IconHeader, LogoOneFDC, LogoTwoFDC } from './icons'
 import { Hamb } from './icons'
 import { useState } from "react"
-import { OpenClosed } from "./icons"
+import { MenuOpenClosed } from "./icons"
 import { ArrowSite } from "./icons"
 import Link from 'next/link'
 
@@ -12,10 +12,10 @@ export default function Header(): JSX.Element {
         <header className='z-50 sticky top-0 left-0 bg-white py-4 lg:py-0 font-openSans'>
             <div className='flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full flex-wrap w-full px-4 font-openSans'>
                 <Link href='#'>
-                    <div className='tems-center justify-between lg:space-x-4 flex space-y-2'>
+                    <div className='tems-center justify-between lg:space-x-6 flex'>
                         <LogoOneFDC className='h-8 block lg:hidden' />
-                        <LogoTwoFDC className="h-8 hidden lg:block" />
-                        <IconHeader className="h-6 hidden lg:block" />
+                        <LogoTwoFDC className="lg:my-auto h-8 hidden lg:block" />
+                        <IconHeader className="lg:my-auto h-6 hidden lg:block" />
                     </div>
                 </Link>
                 <button onClick={(): void => setOpen(!open)}>
@@ -25,7 +25,7 @@ export default function Header(): JSX.Element {
                 <nav className={`${open ? "-top-1 left-0 absolute lg:relative bg-white " : "hidden"} px-8 lg:pr-1 pb-6 w-full lg:flex lg:items-center lg:w-auto lg:justify-between py-4 lg:py-4 lg:my-auto`}>
                     <div className='lg:flex lg:justify-between lg:flex-row-reverse lg:space-x-4'>
                         <button className={`flex justify-self-end py-6 mr-0 ml-auto lg:hidden`} onClick={(): void => setOpen(!open)}>
-                            <OpenClosed className="h-5 w-5 lg:hidden" />
+                            <MenuOpenClosed className="h-5 w-5 lg:hidden" />
                         </button>
                         <div className='flex items-center justify-center'>
                             <Link href='#' className='w-full bg-tertiaryOrange hover:bg-primaryBlueDark flex justify-between ease-in-out duration-300 h-auto'>

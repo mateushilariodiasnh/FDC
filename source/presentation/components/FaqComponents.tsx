@@ -10,8 +10,8 @@ export default function Faq({ data }: IDataProps): JSX.Element {
     const { number, title, content } = data
     const [clickArrow, setClickArrow] = useState<boolean>(true)
     return (
-        <div className="space-y-6 font-openSans font-normal text-primaryGrayDark divide-y divide-tertiaryGrayBlue w-full xl:max-w-3xl">
-            <button onClick={(): void => setClickArrow(!clickArrow)} className="text-start w-full flex space-x-6 items-center">
+        <div className="space-y-6 font-openSans font-normal text-primaryGrayDark w-full xl:max-w-2xl">
+            <button onClick={(): void => setClickArrow(!clickArrow)} className="text-start w-full flex space-x-6 items-center pt-6">
                 <p className="grow font-openSans text-1.5xl font-bold flex space-x-4">
                     <span className="text-tertiaryOrange pl-6">{number} </span>
                     <span>{title}</span>
@@ -20,8 +20,7 @@ export default function Faq({ data }: IDataProps): JSX.Element {
                     <DownArrow className={`h-4 w-2 mr-12 lg:mr-0 ${clickArrow?"": "rotate-180"}`}  />
                 </span>
             </button>
-            <p className={`pt-6 ${clickArrow ? "hidden" : "block"} mx-6 text-1.5xl font-openSans font`}>{content}</p><br></br>
-            <div className="mx-6 divide-y divide-tertiaryGrayBlue"></div>
+            <p className={`${clickArrow ? "hidden" : "block"} mx-6 text-1.5xl font-openSans font`}>{content}</p><br></br>
         </div>
     )
 }

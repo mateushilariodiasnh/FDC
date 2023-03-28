@@ -1,8 +1,8 @@
 import List from "./Depositions";
 import { DownArrowList } from "./icons";
-import { FdcThree } from "./icons";
+import { FdcThreeWaterMark } from "./icons";
 
-export default function DepoimentosPart(): JSX.Element {
+export default function DepoimentosPart(): JSX.Element   {
     return (
         <section className='bg-white relative overflow-hidden'>
             <div className='pt-10 relative z-10 lg:pt-24'>
@@ -12,7 +12,7 @@ export default function DepoimentosPart(): JSX.Element {
                 <p className='mx-6 my-10 lg:mt-12 lg:mb-14 lg:max-w-xl lg:mx-auto text-1.5xl font-normal font-openSans text-primaryGrayDark '>Confira os depoimentos de executivos e colaboradores que já participaram de programas empresariais da FDC.</p>
             </div>
 
-            <div className='bullets flex items-center justify-center lg:max-w-7xl mx-auto pb-20 relative z-10'>
+            <div className='depositions flex items-center justify-center lg:max-w-7xl mx-auto pb-20 relative z-10'>
                 <div className='teste-buttom-prev relative z-20 lg:mr-7'>
                     <DownArrowList className=" h-3 rotate-90 hidden lg:block" />
                 </div>
@@ -21,7 +21,7 @@ export default function DepoimentosPart(): JSX.Element {
                     <DownArrowList className="h-3 -rotate-90 hidden lg:block" />
                 </div>
                 <span className='-bottom-96 lg:-bottom-96 aria-hidden:"true" absolute px-2 items-center justify-center h-full w-[605px] lg:h-[634px] lg:w-[1815px] mx-auto '>
-                    <FdcThree className='-z-10' />
+                    <FdcThreeWaterMark className='-z-10' />
                 </span>
             </div>
 
