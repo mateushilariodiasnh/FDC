@@ -20,16 +20,15 @@ export default function List(): JSX.Element {
         <Swiper
           modules={[Pagination, A11y, Navigation]}
           navigation
-          spaceBetween={0}
-          centeredSlides= {false}
-          slidesPerView={1}
+          spaceBetween={16}
+          slidesPerView={1.2}
+          centeredSlides
           pagination={{ clickable: true }}
-          loop={true}
+          loop= {true}
           breakpoints={{
             1024: {
               spaceBetween: 16,
               slidesPerView: 3,
-              centeredSlides: true,
               navigation: {
                 prevEl: '.teste-buttom-prev',
                 nextEl: '.teste-buttom-next',
