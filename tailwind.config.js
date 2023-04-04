@@ -11,7 +11,7 @@ module.exports = {
       maxWidth: {
         '3.5xl': '52rem',
         '1.5xl': '37.5rem',
-        '2.5xl': '44.375',
+        '2.5xl': '44.375rem',
       },
       fontSize: {
         '4.5xl': ['2.5rem', {

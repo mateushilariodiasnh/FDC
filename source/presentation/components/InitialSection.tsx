@@ -25,7 +25,7 @@ export default function InitialSection(): JSX.Element {
             </section>
             <Link href='#suaEmpresaEUnica'>
                 <button className='mx-auto lg:block hidden'>
-                    <Arrow className='bottom-80 z-20 h-9 w-9 relative animate-bounce rotate-90' />
+                    <Arrow className='bottom-64 z-20 h-9 w-9 relative animate-bounce rotate-90' />
                 </button>
             </Link>
             <div className=' lg:hidden border-l-4 border-tertiaryOrange ml-6 mt-12 mb-20 font-openSans text-1.5xl'>

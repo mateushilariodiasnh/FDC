@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css/pagination"
-import { Pagination, A11y } from 'swiper';
+import { Pagination } from 'swiper';
 import 'swiper/css'
 import Cards from './Card'
 import { IDataCard } from "./data/CardsData";
@@ -9,7 +9,7 @@ interface ICardProps {
   data: IDataCard[];
 }
 
-export default function CardsMobille({data}: ICardProps): JSX.Element {
+export default function CardsMobile({data}: ICardProps): JSX.Element {
   return (
     <div className='lg:hidden'>
       <Swiper

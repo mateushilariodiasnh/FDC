@@ -2,7 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply scroll-smooth;
+}
+
+.swiper-component-wrapper .swiper-slide{
+  @apply h-auto
+}
+
+.bullets .swiper-pagination-bullet{
+  @apply lg:hidden
+}
+
+.swiper .swiper-pagination .swiper-pagination-bullet-active{
+  @apply relative bg-tertiaryOrange w-4 h-2;
+}
+
+.swiper-wrapper .swiper-slide {
+  @apply h-auto;
+}
+
+.cardsInformation .swiper .swiper-pagination {
+  width: 100%;
+  position: relative;
+  margin-top: 48px;
+}
+
+.depositions .swiper .swiper-pagination {
+  width: 100%;
+  position: relative;
+  margin-top: 16px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 @font-face {
   font-family: "Nexa Slab";
   src: url("../public/fonts/NexaSlab/NexaSlab-Light.woff2") format("woff2"),
@@ -37,30 +70,4 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-}
-
-.swiper-component-wrapper .swiper-slide{
-  @apply h-auto
-}
-.bullets .swiper-pagination-bullet{
-  @apply lg:hidden
-}
-.swiper .swiper-pagination .swiper-pagination-bullet-active{
-  @apply relative bg-tertiaryOrange w-4 h-2;
-}
-.swiper-wrapper .swiper-slide {
-  @apply h-auto;
-}
-.cardsInformation .swiper .swiper-pagination {
-  width: 100%;
-  position: relative;
-  margin-top: 48px;
-}
-.depositions .swiper .swiper-pagination {
-  width: 100%;
-  position: relative;
-  margin-top: 16px;
-}
-html {
-  @apply scroll-smooth;
 }

@@ -1,26 +1,26 @@
-import CardsMobille from "./CardsMobille";
+import CardsMobile from "./CardsMobile";
 import Cards from "./Card";
 import { FdcOneWaterMark } from "./icons";
 import { dataCards } from './data/CardsData'
 
 export default function Information(): JSX.Element {
     return (
-        <section id='suaEmpresaEUnica' className="pt-6">
-            <div className='text-center font-nexaSlab mt-16 lg:mt-7'>
+        <section id='suaEmpresaEUnica' className="mt-16 lg:mt-1">
+            <div className='text-center font-nexaSlab'>
                 <div className='border-t-8 border-white m-6 lg:max-w-3.5xl lg:mx-auto'></div>
                 <h2 className='uppercase text-primaryBlue mt-10 mb-2 text-3.5xl lg:text-4.5xl'>Sua empresa é única</h2>
-                <p className='text-primaryBlueDark mx-8 mb-8 text-1.5xl lg:text-1xl'>É por isso que a jornada dela também tem de ser</p>
+                <p className='text-primaryBlueDark mx-8 mb-9 text-1.5xl lg:text-1xl'>É por isso que a jornada dela também tem de ser</p>
                 <div className='border-t-8 border-white m-6 lg:max-w-3.5xl lg:mx-auto'></div>
             </div>
             <section className='relative overflow-hidden'>
-                <div className='mt-4 lg:grid lg:grid-cols-2 lg:max-w-3xl lg:mx-auto lg:space-x-6 lg:space-y-6'>
-                    <div className='lg:pl-6 mx-6 z-10 font-openSans text-primaryGrayDark text-1.5xl'>
-                        <p className='lg:pt-8 lg:grid-cols-1'>Avaliamos as <strong>lacunas do seu negócio</strong> para sugerir os conteúdos que precisam ser trabalhados e isso faz toda a diferença.</p>
+                <div className='mt-4 lg:mt-1 lg:grid lg:grid-cols-2 lg:max-w-3xl lg:mx-auto lg:space-x-6 lg:space-y-6'>
+                    <div className='mx-6 z-10 font-openSans text-primaryGrayDark text-1.5xl'>
+                        <p className='lg:pt-7 lg:grid-cols-1'>Avaliamos as <strong>lacunas do seu negócio</strong> para sugerir os conteúdos que precisam ser trabalhados e isso faz toda a diferença.</p>
                         <p className='lg:grid-cols-1 pt-3'>Seu time ainda pode adicionar módulos de interesse de acordo com a cultura e as necessidades pontuais da organização, formando uma <strong>grade curricular flexível.</strong> </p>
                     </div>
 
                     <div className="cardsInformation block lg:hidden w-full overflow-hidden relative">
-                        <CardsMobille data={dataCards}/>
+                        <CardsMobile data={dataCards}/>
                     </div>
 
                     {dataCards.map(dataCard => {
@@ -33,7 +33,7 @@ export default function Information(): JSX.Element {
 
                 </div>
 
-                <span className='top-96 lg:top-80 left-1/2 -translate-x-1/2  absolute px-2 w-full '>
+                <span className='top-96 lg:top-80 left-1/2 -translate-x-1/2  absolute px-2 w-full'>
                     <FdcOneWaterMark className='-z-10' />
                 </span>
 

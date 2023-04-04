@@ -14,7 +14,6 @@ export default function List(): JSX.Element {
   }, []);
 
   return (
-
     <>
       {mounted && (
         <Swiper
@@ -24,7 +23,7 @@ export default function List(): JSX.Element {
           slidesPerView={1.2}
           centeredSlides
           pagination={{ clickable: true }}
-          loop= {true}
+          loop={true}
           breakpoints={{
             1024: {
               spaceBetween: 16,
@@ -36,8 +35,8 @@ export default function List(): JSX.Element {
               pagination: false,
             },
           }}
-
         >
+
           {dataDepositions.map((item) => {
             return (
               <div key={item.id}>
@@ -50,6 +49,5 @@ export default function List(): JSX.Element {
         </Swiper>
       )}
     </>
-
   )
 }
