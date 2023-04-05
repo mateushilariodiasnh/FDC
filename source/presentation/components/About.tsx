@@ -9,9 +9,9 @@ import Link from "next/link";
 export default function About(): JSX.Element {
     return (
         <section className='relative overflow-hidden'>
-            <div className='bg-primaryGrayDark pt-16 lg:pt-40'>
+            <div className='bg-primaryGrayDark pt-16 lg:pt-40 overflow-hidden'>
                 <div className='border-y-8 border-secondaryGrayDark mx-6 lg:max-w-3.5xl lg:mx-auto'>
-                <h2 className='uppercase text-center text-primaryBlue mt-12 mb-10 text-2xl lg:text-4xl font-nexaSlab lg:text-4.5xl'>Sobre a FDC</h2>
+                <h2 className='uppercase text-center text-primaryBlue mt-12 mb-10 text-2xl lg:text-4.5xl font-nexaSlab'>Sobre a FDC</h2>
                 </div>
                 <p className='text-white text-1.5xl mx-6 mt-14 lg:max-w-xl lg:mx-auto font-openSans  '><strong>A FDC impulsiona o desenvolvimento</strong> das organizações com uma abordagem focada em resultados, inclusão e sustentabilidade para os negócios. Olhamos para a real necessidade, bem como para os desafios e objetivos das organizações e de seus profissionais, contribuindo para o aprimoramento das competências gerenciais e individuais e a melhoria constante da governança, gestão e dos resultados. </p>
                 <p className='text-white text-1.5xl mt-2 mx-6 lg:max-w-xl lg:mx-auto font-openSans'><strong>Nossas soluções geram impacto e compreendem temáticas globais,</strong> acompanhando as transformações do mundo e da sociedade na velocidade que o mercado exige.</p>
@@ -76,7 +76,7 @@ export default function About(): JSX.Element {
                     </picture>
                 </div>
 
-                <span className='lg:bottom-12 aria-hidden:"true" absolute px-2 items-center justify-center h-full w-full lg:h-[634px] lg:w-full mx-auto '>
+                <span className='lg:-bottom-24 absolute px-2 h-full w-[550px] lg:h-[634px] lg:w-[1815px] 2xl:w-full left-1/2 -translate-x-1/2 '>
                     <FdcTwoWaterMark className='-z-10' />
                 </span>
 

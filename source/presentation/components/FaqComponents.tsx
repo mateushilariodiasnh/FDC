@@ -20,7 +20,7 @@ export default function Faq({ data }: IDataProps): JSX.Element {
                     <DownArrow className={`h-4 w-2 lg:mr-0 ${clickArrow?"": "rotate-180"}`}  />
                 </span>
             </button>
-            <p className={`${clickArrow ? "hidden" : "block"} mx-6 text-1.5xl font-openSans font`}>{content}</p><br></br>
+            <p className={`${clickArrow ? "hidden" : "block"} pl-0 lg:pl-6 mr-0 text-1.5xl font-openSans font`}>{content}</p><br></br>
         </div>
     )
 }

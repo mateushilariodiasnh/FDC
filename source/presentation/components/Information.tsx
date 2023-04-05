@@ -33,17 +33,17 @@ export default function Information(): JSX.Element {
 
                 </div>
 
-                <span className='top-96 lg:top-80 left-1/2 -translate-x-1/2  absolute px-2 w-full'>
+                <span className='top-96 lg:top-80 left-1/2 -translate-x-1/2  absolute px-2 w-[605px] lg:w-[2100px] 2xl:w-full'>
                     <FdcOneWaterMark className='-z-10' />
                 </span>
 
-                <div className='relative items-center justify-center lg:flex pt-40 lg:pt-32'>
+                <div className='relative items-center justify-center lg:flex pt-40 lg:pt-36'>
 
-                    <picture className="absolute z-40 w-64 top-4 left-4 lg:w-[21.9375rem] lg:top-80 2xl:left-60">
+                    <picture className="absolute z-40 w-64 top-4 left-4 lg:w-[28rem] lg:left-28 lg:top-64 2xl:left-60">
                         <source srcSet={"/images/IllustrativeTableOne.png".replace(".png", ".webp")} type="image/webp" />
                         <img src={"/images/IllustrativeTableOne.png"} alt="primeira tabela" />
                     </picture>
-                    <picture className="absolute z-30 w-80 top-28 right-1 lg:right-0 lg:left-auto lg:w-[32.5rem] 2xl:top-20 2xl:right-40 ">
+                    <picture className="absolute z-30 w-80 top-28 right-1 lg:top-12 lg:right-12 lg:left-auto lg:w-[38rem] 2xl:top-20 2xl:right-40 ">
                         <source srcSet={"/images/IllustrativeTableTwo.png".replace(".png", ".webp")} type="image/webp" />
                         <img src={"/images/IllustrativeTableTwo.png"} alt="segunda tabela" />
                     </picture>
