@@ -1,4 +1,4 @@
-import List from "./Depositions";
+import DepositionsShowList from "./DepositionsShowList";
 import { DownArrowList } from "./icons";
 import { FdcThreeWaterMark } from "./icons";
 
@@ -16,11 +16,11 @@ export default function DepoimentosPart(): JSX.Element   {
                 <div className='teste-buttom-prev relative z-20 lg:mr-7'>
                     <DownArrowList className=" h-3 rotate-90 hidden lg:block" />
                 </div>
-                <List />
+                <DepositionsShowList />
                 <div className='teste-buttom-next relative z-20 lg:ml-7'>
                     <DownArrowList className="h-3 -rotate-90 hidden lg:block" />
                 </div>
-                <span className='-bottom-96 lg:-bottom-96 aria-hidden:"true" absolute px-2 items-center justify-center h-full w-[605px] lg:h-[634px] lg:w-[1815px] mx-auto '>
+                <span className='-bottom-96 lg:-bottom-96 aria-hidden:"true" absolute px-2 items-center justify-center h-full w-151 lg:h-159 lg:w-454 mx-auto '>
                     <FdcThreeWaterMark className='-z-10' />
                 </span>
             </div>

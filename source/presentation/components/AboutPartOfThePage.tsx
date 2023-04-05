@@ -1,9 +1,9 @@
-import Fields from "./Field"
+import FieldsComponentOne from "./FieldsComponentOne"
 import { FdcTwoWaterMark } from "./icons"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination } from 'swiper';
 import 'swiper/css'
-import FieldsContent from "./FieldsContent"
+import FieldsComponentTwo from "./FieldsComponentTwo"
 import Link from "next/link";
 
 export default function About(): JSX.Element {
@@ -18,34 +18,34 @@ export default function About(): JSX.Element {
                 <div className=' mx-14 text-white relative z-20 pt-12 lg:px-auto lg:max-w-3.5xl lg:mx-auto'>
                     <div className='lg:grid gap-1 lg:grid-cols-4 lg:space-x-6'>
                         <article>
-                            <Fields ><h3>45 anos</h3></Fields>
-                            <FieldsContent ><p className='pt-2 pb-6 pl-4 pr-16 lg:pr-8 lg:pb-2'>de história de sucesso e liderança</p></FieldsContent>
+                            <FieldsComponentOne ><h3>45 anos</h3></FieldsComponentOne>
+                            <FieldsComponentTwo ><p className='pt-2 pb-6 pl-4 pr-16 lg:pr-8 lg:pb-2'>de história de sucesso e liderança</p></FieldsComponentTwo>
                         </article>
                         <article>
-                            <Fields ><h3>+1 milhão</h3></Fields>
-                            <FieldsContent ><p className='pt-1 pb-6 pl-4 pr-5 lg:pt-2 lg:pr-2 lg:pb-2'>de executivos capacitados em programas</p></FieldsContent>
+                            <FieldsComponentOne ><h3>+1 milhão</h3></FieldsComponentOne>
+                            <FieldsComponentTwo ><p className='pt-1 pb-6 pl-4 pr-5 lg:pt-2 lg:pr-2 lg:pb-2'>de executivos capacitados em programas</p></FieldsComponentTwo>
                         </article>
                         <article>
-                            <Fields ><h3>+700</h3></Fields>
-                            <FieldsContent ><p className='pt-2 pb-4 pl-4 pr-8 lg:pr-3 lg:pb-2' >docentes com notoriedade nacional e internacional</p></FieldsContent>
+                            <FieldsComponentOne ><h3>+700</h3></FieldsComponentOne>
+                            <FieldsComponentTwo ><p className='pt-2 pb-4 pl-4 pr-8 lg:pr-3 lg:pb-2' >docentes com notoriedade nacional e internacional</p></FieldsComponentTwo>
                         </article>
                         <article>
-                            <Fields ><h3>+900</h3></Fields>
-                            <FieldsContent ><p className='pt-3 pb-6 px-4 lg:pb-2'>empresas cliente atendidas por ano</p></FieldsContent>
+                            <FieldsComponentOne ><h3>+900</h3></FieldsComponentOne>
+                            <FieldsComponentTwo ><p className='pt-3 pb-6 px-4 lg:pb-2'>empresas cliente atendidas por ano</p></FieldsComponentTwo>
                         </article>
                     </div>
                     <div className='lg:grid gap-1 lg:grid-cols-3 lg:mt-6 lg:space-x-6'>
                         <article>
-                            <Fields ><h3>+37 mil</h3></Fields>
-                            <FieldsContent ><p className='pt-3 pb-6 px-4 lg:pr-8 lg:pt-1 lg:pb-2'>executivos participantes por ano</p></FieldsContent>
+                            <FieldsComponentOne ><h3>+37 mil</h3></FieldsComponentOne>
+                            <FieldsComponentTwo ><p className='pt-3 pb-6 px-4 lg:pr-8 lg:pt-1 lg:pb-2'>executivos participantes por ano</p></FieldsComponentTwo>
                         </article>
                         <article>
-                            <Fields ><h3>1ª em Educação</h3></Fields>
-                            <FieldsContent ><p className='pt-3 pb-6 px-4 lg:pt-1 lg:pb-2'>Executiva na América Latina há 15 anos consecutivos*</p></FieldsContent>
+                            <FieldsComponentOne ><h3>1ª em Educação</h3></FieldsComponentOne>
+                            <FieldsComponentTwo ><p className='pt-3 pb-6 px-4 lg:pt-1 lg:pb-2'>Executiva na América Latina há 15 anos consecutivos*</p></FieldsComponentTwo>
                         </article>
                         <article>
-                            <Fields ><h3>9ª melhor</h3></Fields>
-                            <FieldsContent ><p className='pt-3 pb-10 px-4 lg:pt-1 lg:pb-2'>escola de negócios do mundo*</p></FieldsContent>
+                            <FieldsComponentOne ><h3>9ª melhor</h3></FieldsComponentOne>
+                            <FieldsComponentTwo ><p className='pt-3 pb-10 px-4 lg:pt-1 lg:pb-2'>escola de negócios do mundo*</p></FieldsComponentTwo>
                         </article>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ export default function About(): JSX.Element {
                     </picture>
                 </div>
 
-                <span className='lg:-bottom-24 absolute px-2 h-full w-[550px] lg:h-[634px] lg:w-[1815px] 2xl:w-full left-1/2 -translate-x-1/2 '>
+                <span className='lg:-bottom-24 absolute px-2 h-full w-138 lg:h-159 lg:w-454 2xl:w-full left-1/2 -translate-x-1/2 '>
                     <FdcTwoWaterMark className='-z-10' />
                 </span>
 

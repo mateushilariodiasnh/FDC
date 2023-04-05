@@ -19,7 +19,7 @@ export default function InitialSection(): JSX.Element {
                 </section>
                 <picture>
                     <source srcSet={"/images/WomanInFrontOfTheNotebook.png".replace(".png", ".webp")} type="image/webp" />
-                    <img className='lg:ml-3 px-6 lg:h-[648px] lg:w-[574px] mx-auto relative z-30 lg:top-20' src={"/images/WomanInFrontOfTheNotebook.png"} alt="Uma mulher olhando para um notebook" />
+                    <img className='lg:ml-10 px-6 lg:h-162 mx-auto relative z-30 lg:top-20' src={"/images/WomanInFrontOfTheNotebook.png"} alt="Uma mulher olhando para um notebook" />
                 </picture>
                 <Cut className='absolute z-20 -bottom-1' />
             </section>

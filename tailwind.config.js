@@ -35,6 +35,20 @@ module.exports = {
           letterSpacing: '0.02rem',
         }],
       },
+      height: {
+        '102': '25.5rem',
+        '159': '39.75rem',
+        '162': '40.5rem',
+      },
+      width: {
+        '112': '28rem',
+        '138': '34.5rem',
+        '151': '37.75rem',
+        '241': '60.25rem',
+        '454': '113.5rem',
+        '473': '118.25rem',
+        '525': '131.25rem',
+      },
       backgroundImage: {
         'InitialImage': "url('../public/images/initialImageWebdoor.png')",
       }

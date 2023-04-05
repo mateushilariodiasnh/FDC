@@ -1,35 +1,35 @@
-import Header from '../components/Header'
-import InitialSection from '../components/InitialSection'
-import Information from '../components/Information'
-import About from '../components/About'
-import DepositionsPart from '../components/DepositionsPart'
-import FAQpart from '../components/FAQpart'
-import Merchan from '../components/Merchan'
-import Foother from '../components/Foother'
+import HeaderPartOfThePage from '../components/HeaderPartOfThePage'
+import InitialSectionPartOfThePage from '../components/InitialSectionPartOfThePage'
+import InformationPartOfThePage from '../components/InformationPartOfThePage'
+import AboutPartOfThePage from '../components/AboutPartOfThePage'
+import DepositionsPartOfThePage from '../components/DepositionsPartOfThePage'
+import FaqPartOfThePage from '../components/FaqPartOfThePage'
+import MerchanPartOfThePage from '../components/MerchanPartOfThePage'
+import FootherPartOfThePage from '../components/FootherPartOfThePage'
 
 export default function Home(): JSX.Element {
 
   return (
     <>
-      <Header />
+      <HeaderPartOfThePage />
 
       <main className='bg-secondaryWhite z-0'>
 
-        <InitialSection />
+        <InitialSectionPartOfThePage />
 
-        <Information />
+        <InformationPartOfThePage />
 
-        <About />
+        <AboutPartOfThePage />
 
-        <DepositionsPart />
+        <DepositionsPartOfThePage />
 
-        <FAQpart />
+        <FaqPartOfThePage />
 
-        <Merchan />
+        <MerchanPartOfThePage />
 
       </main>
 
-      <Foother />
+      <FootherPartOfThePage />
     </>
   )
 }

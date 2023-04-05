@@ -1,6 +1,6 @@
 import { DownArrow } from "./icons";
 import { useState } from "react";
-import { IDataFaq } from "./data/Faq";
+import { IDataFaq } from "./data/FaqData";
 
 interface IDataProps {
     data: IDataFaq;

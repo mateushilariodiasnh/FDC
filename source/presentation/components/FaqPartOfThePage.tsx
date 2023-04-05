@@ -1,4 +1,4 @@
-import FaqShow from "./FaqShow"
+import FaqShowList from "./FaqShowList"
 
 export default function FAQpart(): JSX.Element {
   return (
@@ -9,7 +9,7 @@ export default function FAQpart(): JSX.Element {
         </div>
       </div>
       <article className='pb-10 lg:pt-10 lg:pb-28 lg:ml-12 lg:mr-44 '>
-        <FaqShow />
+        <FaqShowList />
       </article>
     </section>
   )

@@ -1,5 +1,5 @@
-import CardsMobile from "./CardsMobile";
-import Cards from "./Card";
+import CardsMobileShowList from "./CardsMobileShowList";
+import CardComponent from "./CardComponent";
 import { FdcOneWaterMark } from "./icons";
 import { dataCards } from './data/CardsData'
 
@@ -20,38 +20,38 @@ export default function Information(): JSX.Element {
                     </div>
 
                     <div className="cardsInformation block lg:hidden w-full overflow-hidden relative">
-                        <CardsMobile data={dataCards}/>
+                        <CardsMobileShowList data={dataCards}/>
                     </div>
 
                     {dataCards.map(dataCard => {
                         return (
                             <article className=" hidden lg:block z-10" key={dataCard.id}>
-                                <Cards data={dataCard} />
+                                <CardComponent data={dataCard} />
                             </article>
                         )
                     })}
 
                 </div>
 
-                <span className='top-96 lg:top-80 left-1/2 -translate-x-1/2  absolute px-2 w-[605px] lg:w-[2100px] 2xl:w-full'>
+                <span className='top-96 lg:top-80 left-1/2 -translate-x-1/2  absolute px-2 w-151 lg:w-525 2xl:w-full'>
                     <FdcOneWaterMark className='-z-10' />
                 </span>
 
                 <div className='relative items-center justify-center lg:flex pt-40 lg:pt-36'>
 
-                    <picture className="absolute z-40 w-64 top-4 left-4 lg:w-[28rem] lg:left-28 lg:top-64 2xl:left-60">
+                    <picture className="absolute z-40 w-64 top-4 left-4 lg:w-112 lg:left-28 lg:top-64 2xl:left-60">
                         <source srcSet={"/images/IllustrativeTableOne.png".replace(".png", ".webp")} type="image/webp" />
                         <img src={"/images/IllustrativeTableOne.png"} alt="primeira tabela" />
                     </picture>
-                    <picture className="absolute z-30 w-80 top-28 right-1 lg:top-12 lg:right-12 lg:left-auto lg:w-[38rem] 2xl:top-20 2xl:right-40 ">
+                    <picture className="absolute z-30 w-80 top-28 right-1 lg:top-12 lg:right-12 lg:left-auto lg:w-151 2xl:top-20 2xl:right-40 ">
                         <source srcSet={"/images/IllustrativeTableTwo.png".replace(".png", ".webp")} type="image/webp" />
                         <img src={"/images/IllustrativeTableTwo.png"} alt="segunda tabela" />
                     </picture>
-                    <picture className="absolute z-20 bottom-40 lg:bottom-0">
+                    <picture className="absolute z-20 bottom-40 lg:bottom-0 h-102 w-473">
                         <source srcSet={"/images/NewCut.png".replace(".png", ".webp")} type="image/webp" />
-                        <img src={"/images/NewCut.png"} alt="corte por cima da terceira tabela" width={1890} height={408}/>
+                        <img src={"/images/NewCut.png"} alt="corte por cima da terceira tabela" />
                     </picture>
-                    <picture className="relative z-10 w-full top-6 lg:top-0 mx-3 lg:w-[60.25rem]">
+                    <picture className="relative z-10 w-full top-6 lg:top-0 mx-3 lg:w-241">
                         <source srcSet={"/images/IllustrativeTableThree.png".replace(".png", ".webp")} type="image/webp" />
                         <img src={"/images/IllustrativeTableThree.png"} alt="terceira tabela" />
                     </picture>

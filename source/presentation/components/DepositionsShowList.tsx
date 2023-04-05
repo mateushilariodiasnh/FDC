@@ -6,7 +6,7 @@ import { Pagination, A11y, Navigation } from 'swiper';
 import 'swiper/css'
 import { useEffect, useState } from 'react';
 
-export default function List(): JSX.Element {
+export default function DepositionsShowList(): JSX.Element {
   const [mounted, setMounted] = useState<boolean>(false);
 
   useEffect((): void => {

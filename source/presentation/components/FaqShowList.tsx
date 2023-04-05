@@ -1,7 +1,7 @@
-import { dataFaq } from "./data/Faq";
-import Faq from "./FaqComponents";
+import { dataFaq } from "./data/FaqData";
+import Faq from "./FaqComponent";
 
-export default function FaqShow(): JSX.Element {
+export default function FaqShowList(): JSX.Element {
     return (
         <ul className="divide-y divide-tertiaryGrayBlue pl-6 mr-12">
             {dataFaq.map((item) => {
