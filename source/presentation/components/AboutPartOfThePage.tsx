@@ -52,8 +52,8 @@ export default function About(): JSX.Element {
 
                 <div className='opacity-8 relative z-10 font-openSans'>
                     <p className='text-center text-white mt-6 -mb-2 text-xs'>*Segundo o ranking de Educação Executiva 2022 do Financial Times.</p>
-                    <Link href='#'>
-                        <button className='block mx-auto uppercase border border-white text-white hover:bg-white hover:text-primaryBlueDark ease-in-out duration-300 h-12 my-12 text-center px-6'>Conheça mais</button>
+                    <Link href='#' className="flex justify-center items-center my-12">
+                        <span className='uppercase border border-white text-white hover:bg-white hover:text-primaryBlueDark ease-in-out duration-300 text-center py-3 px-6 '>Conheça mais</span>
                     </Link>
                 </div>
 
