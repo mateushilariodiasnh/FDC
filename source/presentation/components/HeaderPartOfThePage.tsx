@@ -28,7 +28,7 @@ export default function Header(): JSX.Element {
                             <MenuOpenClosed className="h-5 w-5 lg:hidden" />
                         </button>
                         <div className='flex items-center justify-center'>
-                            <Link href='#' className='w-full bg-tertiaryOrange hover:bg-primaryBlueDark flex justify-between ease-in-out duration-300 h-auto'>
+                            <Link href='/cadastro' className='w-full bg-tertiaryOrange hover:bg-primaryBlueDark flex justify-between ease-in-out duration-300 h-auto'>
                                 <span className="inline-flex items-center text-white font-openSans text-1.5xl font-bold uppercase mx-auto lg:px-6 my-auto">
                                     Quero começar agora
                                 </span>

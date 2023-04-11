@@ -50,10 +50,10 @@ export default function About(): JSX.Element {
                     </div>
                 </div>
 
-                <div className='opacity-8 relative z-10 font-openSans'>
+                <div className='opacity-8 relative z-10 font-openSans '>
                     <p className='text-center text-white mt-6 -mb-2 text-xs'>*Segundo o ranking de Educação Executiva 2022 do Financial Times.</p>
-                    <Link href='#' className="flex justify-center items-center my-12">
-                        <span className='uppercase border border-white text-white hover:bg-white hover:text-primaryBlueDark ease-in-out duration-300 text-center py-3 px-6 '>Conheça mais</span>
+                    <Link href='#' className="flex justify-center items-center my-12 pointer-events-none">
+                        <span className='uppercase border border-white text-white hover:bg-white hover:text-primaryBlueDark ease-in-out duration-300 text-center py-3 px-6 pointer-events-auto'>Conheça mais</span>
                     </Link>
                 </div>
 
