@@ -15,7 +15,7 @@ html {
 }
 
 .swiper .swiper-pagination .swiper-pagination-bullet-active{
-  @apply relative bg-tertiaryOrange w-4 h-2;
+  @apply relative bg-tertiaryOrange w-4 h-2
 }
 
 .swiper-wrapper .swiper-slide {

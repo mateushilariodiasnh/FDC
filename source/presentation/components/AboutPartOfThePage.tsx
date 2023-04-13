@@ -11,11 +11,11 @@ export default function About(): JSX.Element {
         <section className='relative overflow-hidden'>
             <div className='bg-primaryGrayDark pt-16 lg:pt-40 overflow-hidden'>
                 <div className='border-y-8 border-secondaryGrayDark mx-6 lg:max-w-3.5xl lg:mx-auto'>
-                <h2 className='uppercase text-center text-primaryBlue mt-12 mb-10 text-2xl lg:text-4.5xl font-nexaSlab'>Sobre a FDC</h2>
+                <h2 className='uppercase text-center text-primaryBlue mt-10 mb-8 lg:mt-14 lg:mb-10 text-2xl lg:text-4.5xl font-nexaSlab'>Sobre a FDC</h2>
                 </div>
-                <p className='text-white text-1.5xl mx-6 mt-14 lg:max-w-xl lg:mx-auto font-openSans  '><strong>A FDC impulsiona o desenvolvimento</strong> das organizações com uma abordagem focada em resultados, inclusão e sustentabilidade para os negócios. Olhamos para a real necessidade, bem como para os desafios e objetivos das organizações e de seus profissionais, contribuindo para o aprimoramento das competências gerenciais e individuais e a melhoria constante da governança, gestão e dos resultados. </p>
-                <p className='text-white text-1.5xl mt-2 mx-6 lg:max-w-xl lg:mx-auto font-openSans'><strong>Nossas soluções geram impacto e compreendem temáticas globais,</strong> acompanhando as transformações do mundo e da sociedade na velocidade que o mercado exige.</p>
-                <div className=' mx-14 text-white relative z-20 pt-12 lg:px-auto lg:max-w-3.5xl lg:mx-auto'>
+                <p className='text-white text-1.5xl mx-6 mt-10 lg:mt-12 lg:max-w-1.5xl lg:mx-auto font-openSans  '><strong>A FDC impulsiona o desenvolvimento</strong> das organizações com uma abordagem focada em resultados, inclusão e sustentabilidade para os negócios. Olhamos para a real necessidade, bem como para os desafios e objetivos das organizações e de seus profissionais, contribuindo para o aprimoramento das competências gerenciais e individuais e a melhoria constante da governança, gestão e dos resultados. </p>
+                <p className='text-white text-1.5xl mt-3 mx-6 lg:max-w-1.5xl lg:mx-auto font-openSans'><strong>Nossas soluções geram impacto e compreendem temáticas globais,</strong> acompanhando as transformações do mundo e da sociedade na velocidade que o mercado exige.</p>
+                <div className='mx-14 text-white relative z-20 pt-9 lg:pt-12 lg:px-auto lg:max-w-3.5xl lg:mx-auto'>
                     <div className='lg:grid gap-1 lg:grid-cols-4 lg:space-x-6'>
                         <article>
                             <FieldsComponentOne ><h3>45 anos</h3></FieldsComponentOne>
@@ -52,12 +52,12 @@ export default function About(): JSX.Element {
 
                 <div className='opacity-8 relative z-10 font-openSans '>
                     <p className='text-center text-white mt-6 -mb-2 text-xs'>*Segundo o ranking de Educação Executiva 2022 do Financial Times.</p>
-                    <Link href='#' className="flex justify-center items-center my-12 pointer-events-none">
+                    <Link href='#' className="flex justify-center items-center lg:mt-11 my-12 pointer-events-none">
                         <span className='uppercase border border-white text-white hover:bg-white hover:text-primaryBlueDark ease-in-out duration-300 text-center py-3 px-6 pointer-events-auto'>Conheça mais</span>
                     </Link>
                 </div>
 
-                <div className=' grid grid-flow-row place-content-center bg-white items-center justify-center space-y-6 mx-6 lg:max-w-3.5xl mb-20 py-12 lg:flex lg:space-x-6 lg:py-11 lg:px-12 md:mx-auto relative z-10 '>
+                <div className=' grid grid-flow-row place-content-center bg-white items-center justify-center space-y-6 mx-6 lg:max-w-3.5xl mb-16 py-12 lg:flex lg:space-x-6 lg:py-11 lg:px-12 md:mx-auto relative z-10 '>
                     <div>
                         <div className='h-2 w-12 bg-tertiaryOrange mb-4'></div>
                         <p className='uppercase lg:pr-16 text-base font-nexaSlab'>Ranking e Certificações</p>
@@ -80,7 +80,7 @@ export default function About(): JSX.Element {
                     <FdcTwoWaterMark className='-z-10' />
                 </span>
 
-                <div className='bullets'>
+                <div className='bullets pt-3'>
                     <Swiper
                         modules={[Pagination]}
                         pagination={{ clickable: true }}

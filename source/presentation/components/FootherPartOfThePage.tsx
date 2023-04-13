@@ -9,7 +9,7 @@ import { Spotify } from './icons'
 export default function Foother(): JSX.Element {
     return (
         <footer>
-            <div className='bg-white text-center pt-10 text-primaryGrayDark mb-10 lg:mb-0 lg:flex lg:py-16 lg:items-center lg:justify-center pb-8 lg:text-start lg:mx-4 xl:mx-20 xl:space-x-12 2xl:space-x-24'>
+            <div className='bg-white text-center pt-11 lg:pt-10 text-primaryGrayDark mb-10 lg:mb-0 lg:flex lg:py-16 lg:items-center lg:justify-center pb-8 lg:text-start lg:mx-4 xl:mx-20 xl:space-x-12 2xl:space-x-24'>
                 <address className='text-1.5xl '>
                     <p className='pb-4 font-black font-nexaSlab'>Fale conosco</p>
                     <a href='telto:0800 941 9200' className='font-normal font-openSans'>0800 941 9200</a><br></br>

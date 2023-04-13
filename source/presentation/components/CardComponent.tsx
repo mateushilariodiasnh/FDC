@@ -8,7 +8,7 @@ import { IDataCard } from "./data/CardsData"
 export default function Cards({ className, data }: ICardProps): JSX.Element {
     const { image: Image, content, id} = data
     return (
-        <div className={"bg-white h-full text-primaryGrayDark flex-col justify-center items-center mt-10 lg:mt-0 border border-secondaryGrayMedium pt-8 lg:py-8 " + className}>
+        <div className={"bg-white h-full text-primaryGrayDark flex-col justify-center items-center mt-9 lg:mt-0 border border-secondaryGrayMedium pt-8 lg:py-8 " + className}>
             <div className="mb-4 flex items-center justify-center">
                 {Image && <Image className='h-14 mx-auto' />}
             </div>

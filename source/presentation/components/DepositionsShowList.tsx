@@ -20,7 +20,7 @@ export default function DepositionsShowList(): JSX.Element {
           modules={[Pagination, A11y, Navigation]}
           navigation
           spaceBetween={16}
-          slidesPerView={1.2}
+          slidesPerView={1.35}
           centeredSlides
           pagination={{ clickable: true }}
           loop={true}

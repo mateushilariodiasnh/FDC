@@ -11,7 +11,7 @@ export default function Faq({ data }: IDataProps): JSX.Element {
     const [clickArrow, setClickArrow] = useState<boolean>(true)
     return (
         <div className="space-y-6 font-openSans font-normal text-primaryGrayDark w-full xl:max-w-2.5xl">
-            <button onClick={(): void => setClickArrow(!clickArrow)} className="text-start w-full flex space-x-6 items-center pt-6">
+            <button onClick={(): void => setClickArrow(!clickArrow)} className="text-start w-full flex space-x-6 items-center pt-6 lg:pt-7">
                 <p className="grow font-openSans text-1.5xl font-bold flex space-x-4">
                     <span className="text-tertiaryOrange">{number} </span>
                     <span>{title}</span>

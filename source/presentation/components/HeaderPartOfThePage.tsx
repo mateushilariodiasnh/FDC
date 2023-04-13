@@ -10,9 +10,9 @@ export default function Header(): JSX.Element {
 
     return (
         <header className='z-50 sticky top-0 left-0 bg-white py-4 lg:py-0 font-openSans'>
-            <div className='flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full flex-wrap w-full px-4 font-openSans'>
+            <div className='flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full flex-wrap w-full px-4 lg:pl-0 lg:pr-4 font-openSans'>
                 <Link href='#'>
-                    <div className='tems-center justify-between lg:space-x-6 flex'>
+                    <div className='items-center justify-between lg:space-x-6 flex'>
                         <LogoOneFDC className='h-8 block lg:hidden' />
                         <LogoTwoFDC className="lg:my-auto h-8 hidden lg:block" />
                         <IconHeader className="lg:my-auto h-6 hidden lg:block" />
@@ -22,7 +22,7 @@ export default function Header(): JSX.Element {
                     <Hamb className="h-5 cursor-pointer lg:hidden" />
                 </button>
 
-                <nav className={`${open ? "-top-1 left-0 absolute lg:relative bg-white " : "hidden"} px-8 lg:pr-1 pb-6 w-full lg:flex lg:items-center lg:w-auto lg:justify-between py-4 lg:py-4 lg:my-auto`}>
+                <nav className={`${open ? "-top-1 left-0 absolute lg:relative bg-white " : "hidden"} px-8 lg:px-4 lg:pr-1 pb-6 w-full lg:flex lg:items-center lg:w-auto lg:justify-between py-4 lg:py-4 lg:my-auto`}>
                     <div className='lg:flex lg:justify-between lg:flex-row-reverse lg:space-x-4'>
                         <button className={`flex justify-self-end py-6 mr-0 ml-auto lg:hidden`} onClick={(): void => setOpen(!open)}>
                             <MenuOpenClosed className="h-5 w-5 lg:hidden" />
