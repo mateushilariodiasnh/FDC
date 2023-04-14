@@ -1,6 +1,6 @@
 import DepositionsShowList from "./DepositionsShowList";
-import { DownArrowList } from "./icons";
-import { FdcThreeWaterMark } from "./icons";
+import { DownArrowList } from "../icons";
+import { FdcThreeWaterMark } from "../icons";
 
 export default function DepoimentosPart(): JSX.Element   {
     return (

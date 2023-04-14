@@ -1,8 +1,8 @@
-import { IconHeader, LogoOneFDC, LogoTwoFDC } from './icons'
-import { Hamb } from './icons'
+import { IconHeader, LogoOneFDC, LogoTwoFDC } from '../icons'
+import { Hamb } from '../icons'
 import { useState } from "react"
-import { MenuOpenClosed } from "./icons"
-import { ArrowSite } from "./icons"
+import { MenuOpenClosed } from "../icons"
+import { ArrowSite } from '../icons'
 import Link from 'next/link'
 
 export default function Header(): JSX.Element {

@@ -43,16 +43,16 @@ export default function Foother(): JSX.Element {
                 <div className='lg:space-x-6 items-center space-y-6 flex flex-col lg:flex-row'>
                     <p className='lg:text-start text-1.5xl font-black font-nexaSlab lg:max-w-min'>Ranking e Certificações</p>
                     <picture>
-                        <source srcSet={"/images/FTLogoWithRankingInformation.png".replace(".png", ".webp")} type="image/webp" />
-                        <img className="h-14 mx-auto" src={"/images/FTLogoWithRankingInformation.png"} alt="logo da FT com uma informação de ranking ao lado" />
+                        <source srcSet={"/images/imagesOfTheHomePage/FTLogoWithRankingInformation.png".replace(".png", ".webp")} type="image/webp" />
+                        <img className="h-14 mx-auto" src={"/images/imagesOfTheHomePage/FTLogoWithRankingInformation.png"} alt="logo da FT com uma informação de ranking ao lado" />
                     </picture>
                     <picture>
-                        <source srcSet={"/images/AmbaLogo.png".replace(".png", ".webp")} type="image/webp" />
-                        <img className="h-10 mx-auto" src={"/images/AmbaLogo.png"} alt="logo da Amba" />
+                        <source srcSet={"/images/imagesOfTheHomePage/AmbaLogo.png".replace(".png", ".webp")} type="image/webp" />
+                        <img className="h-10 mx-auto" src={"/images/imagesOfTheHomePage/AmbaLogo.png"} alt="logo da Amba" />
                     </picture>
                     <picture>
-                        <source srcSet={"/images/EquisLogo.webp".replace(".png", ".webp")} type="image/webp" />
-                        <img className="h-10 mx-auto" src={"/images/EquisLogo.webp"} alt="logo da Equis" />
+                        <source srcSet={"/images/imagesOfTheHomePage/EquisLogo.webp".replace(".png", ".webp")} type="image/webp" />
+                        <img className="h-10 mx-auto" src={"/images/imagesOfTheHomePage/EquisLogo.webp"} alt="logo da Equis" />
                     </picture>
                 </div>
             </div>

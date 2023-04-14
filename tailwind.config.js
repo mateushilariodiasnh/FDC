@@ -54,7 +54,7 @@ module.exports = {
         '525': '131.25rem',
       },
       backgroundImage: {
-        'InitialImage': "url('../public/images/initialImageWebdoor.png')",
+        'InitialImage': "url('../public/images/imagesOfTheHomePage/initialImageWebdoor.png')",
       }
     },
     colors: {

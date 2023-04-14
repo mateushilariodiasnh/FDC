@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Merchan(): JSX.Element {
+export default function Merchant(): JSX.Element {
     return (
         <section className=" bg-InitialImage xl:bg-cover ">
             <div className='m-auto pb-16 max-w-2xl lg:max-w-3xl pt-16 lg:pt-32 lg:py-32 lg:pl-4'>

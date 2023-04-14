@@ -4,7 +4,7 @@ import InformationPartOfThePage from '../components/componentsHomePage/Informati
 import AboutPartOfThePage from '../components/componentsHomePage/AboutPartOfThePage'
 import DepositionsPartOfThePage from '../components/componentsHomePage/DepositionsPartOfThePage'
 import FaqPartOfThePage from '../components/componentsHomePage/FaqPartOfThePage'
-import MerchanPartOfThePage from '../components/componentsHomePage/MerchanPartOfThePage'
+import MerchantPartOfThePage from '../components/componentsHomePage/MerchantPartOfThePage'
 import FooterPartOfThePage from '../components/componentsHomePage/FooterPartOfThePage'
 
 export default function Home(): JSX.Element {
@@ -25,7 +25,7 @@ export default function Home(): JSX.Element {
 
         <FaqPartOfThePage />
 
-        <MerchanPartOfThePage />
+        <MerchantPartOfThePage />
 
       </main>
 

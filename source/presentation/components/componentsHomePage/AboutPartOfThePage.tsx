@@ -63,16 +63,16 @@ export default function About(): JSX.Element {
                         <p className='uppercase lg:pr-16 text-base font-nexaSlab'>Ranking e Certificações</p>
                     </div>
                     <picture>
-                        <source srcSet={"/images/FTLogoWithRankingInformation.png".replace(".png", ".webp")} type="image/webp" />
-                        <img className="h-14 lg:h-full mx-auto" src={"/images/FTLogoWithRankingInformation.png"} alt="logo da FT com uma informação de ranking ao lado" />
+                        <source srcSet={"/images/imagesOfTheHomePage/FTLogoWithRankingInformation.png".replace(".png", ".webp")} type="image/webp" />
+                        <img className="h-14 lg:h-full mx-auto" src={"/images/imagesOfTheHomePage/FTLogoWithRankingInformation.png"} alt="logo da FT com uma informação de ranking ao lado" />
                     </picture>
                     <picture>
-                        <source srcSet={"/images/AmbaLogo.png".replace(".png", ".webp")} type="image/webp" />
-                        <img className="h-11 lg:h-full mx-auto" src={"/images/AmbaLogo.png"} alt="logo da Amba" />
+                        <source srcSet={"/images/imagesOfTheHomePage/AmbaLogo.png".replace(".png", ".webp")} type="image/webp" />
+                        <img className="h-11 lg:h-full mx-auto" src={"/images/imagesOfTheHomePage/AmbaLogo.png"} alt="logo da Amba" />
                     </picture>
                     <picture>
-                        <source srcSet={"/images/EquisLogo.webp".replace(".png", ".webp")} type="image/webp" />
-                        <img className="h-16 lg:h-full mx-auto" src={"/images/EquisLogo.webp"} alt="logo da Equis" />
+                        <source srcSet={"/images/imagesOfTheHomePage/EquisLogo.webp".replace(".png", ".webp")} type="image/webp" />
+                        <img className="h-16 lg:h-full mx-auto" src={"/images/imagesOfTheHomePage/EquisLogo.webp"} alt="logo da Equis" />
                     </picture>
                 </div>
 
@@ -92,20 +92,20 @@ export default function About(): JSX.Element {
                     >
                         <SwiperSlide>
                             <picture>
-                                <source srcSet={"/images/MainBeltOfTheBuilding.png".replace(".png", ".webp")} type="image/webp" />
-                                <img src={"/images/MainBeltOfTheBuilding.png"} alt="a faixada do prédio" />
+                                <source srcSet={"/images/imagesOfTheHomePage/MainBeltOfTheBuilding.png".replace(".png", ".webp")} type="image/webp" />
+                                <img src={"/images/imagesOfTheHomePage/MainBeltOfTheBuilding.png"} alt="a faixada do prédio" />
                             </picture>
                         </SwiperSlide>
                         <SwiperSlide>
                             <picture>
-                                <source srcSet={"/images/ExteriorOfTheBuilding.png".replace(".png", ".webp")} type="image/webp" />
-                                <img src={"/images/ExteriorOfTheBuilding.png"} alt="a parte externa do prédio" />
+                                <source srcSet={"/images/imagesOfTheHomePage/ExteriorOfTheBuilding.png".replace(".png", ".webp")} type="image/webp" />
+                                <img src={"/images/imagesOfTheHomePage/ExteriorOfTheBuilding.png"} alt="a parte externa do prédio" />
                             </picture>
                         </SwiperSlide>
                         <SwiperSlide>
                             <picture>
-                                <source srcSet={"/images/InteriorOfTheBuilding.png".replace(".png", ".webp")} type="image/webp" />
-                                <img src={"/images/InteriorOfTheBuilding.png"} alt="a parte interna do prédio" />
+                                <source srcSet={"/images/imagesOfTheHomePage/InteriorOfTheBuilding.png".replace(".png", ".webp")} type="image/webp" />
+                                <img src={"/images/imagesOfTheHomePage/InteriorOfTheBuilding.png"} alt="a parte interna do prédio" />
                             </picture>
                         </SwiperSlide>
                     </Swiper>

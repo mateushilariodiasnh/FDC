@@ -1,7 +1,7 @@
 import CardsMobileShowList from "./CardsMobileShowList";
 import CardComponent from "./CardComponent";
-import { FdcOneWaterMark } from "./icons";
-import { dataCards } from './data/dataHomePage/CardsData'
+import { FdcOneWaterMark } from "../icons";
+import { dataCards } from '../data/dataHomePage/CardsData'
 
 export default function Information(): JSX.Element {
     return (
@@ -40,20 +40,20 @@ export default function Information(): JSX.Element {
                 <div className='relative items-center justify-center lg:flex pt-48 lg:pt-36 pb-2 lg:pb-0 mx-3 lg:mx-0'>
 
                     <picture className="absolute z-40 w-64 top-6 left-4 lg:w-112 lg:left-28 lg:top-64 2xl:left-60">
-                        <source srcSet={"/images/IllustrativeTableOne.png".replace(".png", ".webp")} type="image/webp" />
-                        <img src={"/images/IllustrativeTableOne.png"} alt="primeira tabela" />
+                        <source srcSet={"/images/imagesOfTheHomePage/IllustrativeTableOne.png".replace(".png", ".webp")} type="image/webp" />
+                        <img src={"/images/imagesOfTheHomePage/IllustrativeTableOne.png"} alt="primeira tabela" />
                     </picture>
                     <picture className="absolute z-30 w-80 top-32 left-14 lg:top-12 lg:right-12 lg:left-auto lg:w-151 2xl:top-20 2xl:right-40 ">
-                        <source srcSet={"/images/IllustrativeTableTwo.png".replace(".png", ".webp")} type="image/webp" />
-                        <img src={"/images/IllustrativeTableTwo.png"} alt="segunda tabela" />
+                        <source srcSet={"/images/imagesOfTheHomePage/IllustrativeTableTwo.png".replace(".png", ".webp")} type="image/webp" />
+                        <img src={"/images/imagesOfTheHomePage/IllustrativeTableTwo.png"} alt="segunda tabela" />
                     </picture>
                     <picture className="absolute z-20 top-28 lg:top-24">
-                        <source srcSet={"/images/NewCut.png".replace(".png", ".webp")} type="image/webp" />
-                        <img src={"/images/NewCut.png"} alt="corte por cima da terceira tabela" />
+                        <source srcSet={"/images/imagesOfTheHomePage/NewCut.png".replace(".png", ".webp")} type="image/webp" />
+                        <img src={"/images/imagesOfTheHomePage/NewCut.png"} alt="corte por cima da terceira tabela" />
                     </picture>
                     <picture className="relative z-10 w-full top-8 lg:top-0 lg:w-241 lg:mx-3">
-                        <source srcSet={"/images/IllustrativeTableThree.png".replace(".png", ".webp")} type="image/webp" />
-                        <img src={"/images/IllustrativeTableThree.png"} alt="terceira tabela" />
+                        <source srcSet={"/images/imagesOfTheHomePage/IllustrativeTableThree.png".replace(".png", ".webp")} type="image/webp" />
+                        <img src={"/images/imagesOfTheHomePage/IllustrativeTableThree.png"} alt="terceira tabela" />
                     </picture>
 
                 </div>

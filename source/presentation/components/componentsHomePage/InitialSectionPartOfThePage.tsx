@@ -1,6 +1,6 @@
 import Link from "next/link"
-import { Arrow } from "./icons"
-import { Cut } from "./icons"
+import { Arrow } from "../icons"
+import { Cut } from "../icons"
 
 export default function InitialSection(): JSX.Element {
     return (
@@ -18,8 +18,8 @@ export default function InitialSection(): JSX.Element {
                     </div>
                 </section>
                 <picture>
-                    <source srcSet={"/images/WomanInFrontOfTheNotebook.png".replace(".png", ".webp")} type="image/webp" />
-                    <img className='lg:ml-10 pl-9 lg:pl-0 top-1 lg:h-162 mx-auto relative z-30 lg:top-20' src={"/images/WomanInFrontOfTheNotebook.png"} alt="Uma mulher olhando para um notebook" />
+                    <source srcSet={"/images/imagesOfTheHomePage/WomanInFrontOfTheNotebook.png".replace(".png", ".webp")} type="image/webp" />
+                    <img className='lg:ml-10 pl-9 lg:pl-0 top-1 lg:h-162 mx-auto relative z-30 lg:top-20' src={"/images/imagesOfTheHomePage/WomanInFrontOfTheNotebook.png"} alt="Uma mulher olhando para um notebook" />
                 </picture>
                 <Cut className='absolute z-20 -bottom-1' />
             </section>
