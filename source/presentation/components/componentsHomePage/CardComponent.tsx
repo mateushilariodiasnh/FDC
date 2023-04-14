@@ -1,4 +1,4 @@
-import { IDataCard } from "./data/CardsData"
+import { IDataCard } from "../data/dataHomePage/CardsData"
 
  interface ICardProps {
     data: IDataCard;

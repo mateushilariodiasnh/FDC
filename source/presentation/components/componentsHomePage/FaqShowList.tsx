@@ -1,4 +1,4 @@
-import { dataFaq } from "./data/FaqData";
+import { dataFaq } from "./data/dataHomePage/FaqData";
 import Faq from "./FaqComponent";
 
 export default function FaqShowList(): JSX.Element {

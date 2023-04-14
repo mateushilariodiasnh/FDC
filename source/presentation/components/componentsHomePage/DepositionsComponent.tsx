@@ -1,5 +1,5 @@
 import { QuotationMarks } from "./icons";
-import { IDataDepositions } from "./data/DepositionsData";
+import { IDataDepositions } from "./data/dataHomePage/DepositionsData";
 
 interface IDataPropsDepositions {
     data: IDataDepositions;

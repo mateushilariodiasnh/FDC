@@ -1,5 +1,5 @@
 import DepositionsComponent from "./DepositionsComponent"
-import { dataDepositions } from "./data/DepositionsData"
+import { dataDepositions } from "./data/dataHomePage/DepositionsData"
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css/pagination"
 import { Pagination, A11y, Navigation } from 'swiper';

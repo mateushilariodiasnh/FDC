@@ -1,7 +1,7 @@
 import CardsMobileShowList from "./CardsMobileShowList";
 import CardComponent from "./CardComponent";
 import { FdcOneWaterMark } from "./icons";
-import { dataCards } from './data/CardsData'
+import { dataCards } from './data/dataHomePage/CardsData'
 
 export default function Information(): JSX.Element {
     return (

@@ -1,10 +1,10 @@
-import { Messagechat } from './icons'
-import { Linkedin } from './icons'
-import { Instagram } from './icons'
-import { Youtube } from './icons'
-import { Facebook } from './icons'
-import { Twitter } from './icons'
-import { Spotify } from './icons'
+import { Messagechat } from '../icons'
+import { Linkedin } from '../icons'
+import { Instagram } from '../icons'
+import { Youtube } from '../icons'
+import { Facebook } from '../icons'
+import { Twitter } from '../icons'
+import { Spotify } from '../icons'
 
 export default function Foother(): JSX.Element {
     return (

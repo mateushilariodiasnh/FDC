@@ -1,5 +1,5 @@
 import FieldsComponentOne from "./FieldsComponentOne"
-import { FdcTwoWaterMark } from "./icons"
+import { FdcTwoWaterMark } from "../icons"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination } from 'swiper';
 import 'swiper/css'
