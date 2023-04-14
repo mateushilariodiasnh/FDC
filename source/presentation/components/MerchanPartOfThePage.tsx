@@ -8,7 +8,7 @@ export default function Merchan(): JSX.Element {
                 <div className='border-l-4 border-tertiaryOrange ml-6 mt-8 font-openSans'>
                     <p className='ml-6 text-white mx-6 text-base lg:mr-12 lg:text-1xl'>Cadastre-se agora mesmo e faça a <strong>avaliação de maturidade</strong> da sua empresa <strong>gratuitamente.</strong> </p>
                     <Link href='#' className="flex pointer-events-none">
-                        <span className='uppercase text-white bg-primaryBlue py-3 px-8 lg:px-8 mt-4 mx-6 lg:mx-4 hover:bg-white hover:text-primaryBlueDark ease-in-out duration-300 font-bold text-1.5xl font-openSans pointer-events-auto'>Quero começar agora</span>
+                        <span className='uppercase text-white bg-primaryBlue py-3 px-8 lg:px-8 mt-5 lg:mt-4 mx-6 lg:mx-4 hover:bg-white hover:text-primaryBlueDark ease-in-out duration-300 font-bold text-1.5xl font-openSans pointer-events-auto'>Quero começar agora</span>
                     </Link>
                 </div>
             </div>

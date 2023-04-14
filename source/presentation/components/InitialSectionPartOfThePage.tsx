@@ -19,19 +19,19 @@ export default function InitialSection(): JSX.Element {
                 </section>
                 <picture>
                     <source srcSet={"/images/WomanInFrontOfTheNotebook.png".replace(".png", ".webp")} type="image/webp" />
-                    <img className='lg:ml-10 px-6 lg:h-162 mx-auto relative z-30 lg:top-20' src={"/images/WomanInFrontOfTheNotebook.png"} alt="Uma mulher olhando para um notebook" />
+                    <img className='lg:ml-10 pl-9 lg:pl-0 top-1 lg:h-162 mx-auto relative z-30 lg:top-20' src={"/images/WomanInFrontOfTheNotebook.png"} alt="Uma mulher olhando para um notebook" />
                 </picture>
                 <Cut className='absolute z-20 -bottom-1' />
             </section>
             <Link href='#suaEmpresaEUnica' className="relative flex justify-center items-center">
                 <span className='lg:block hidden absolute pointer-events-none'>
-                    <Arrow className='bottom-64 z-20 h-9 w-9 relative  animate-bounce rotate-90 pointer-events-auto' />
+                    <Arrow className='bottom-60 z-20 h-9 w-9 relative  animate-bounce rotate-90 pointer-events-auto' />
                 </span>
             </Link>
-            <div className=' lg:hidden border-l-4 border-tertiaryOrange ml-6 mt-12 mb-20 font-openSans text-1.5xl'>
+            <div className=' lg:hidden border-l-4 border-tertiaryOrange ml-6 mt-14 mb-20 font-openSans text-1.5xl'>
                 <p className='ml-6 mx-6 text-primaryBlueDark font-normal'>Cadastre-se e faça a <strong>avaliação de maturidade</strong> da sua empresa <strong>gratuitamente.</strong> </p>
                 <Link href='#' className="flex pointer-events-none">
-                    <span className='uppercase text-white font-bold bg-primaryBlue py-3 px-8 mt-4 mx-6 hover:bg-primaryBlueDark ease-in-out duration-300 pointer-events-auto'>Quero começar agora</span>
+                    <span className='uppercase text-white font-bold bg-primaryBlue py-3 px-8 mt-5 mx-6 hover:bg-primaryBlueDark ease-in-out duration-300 pointer-events-auto'>Quero começar agora</span>
                 </Link>
             </div>
             <Link href="#suaEmpresaEUnica">
