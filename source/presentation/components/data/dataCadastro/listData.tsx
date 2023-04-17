@@ -1,5 +1,7 @@
-/* export interface IDataList {
-    id: number,
+/* import 
+
+export interface IDataList {
+    id: number;
     image: React.FC<React.SVGProps<SVGSVGElement>|HTMLImageElement>;
     content: JSX.Element;
 }

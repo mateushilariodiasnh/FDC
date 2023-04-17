@@ -35,7 +35,7 @@ export default function Header(): JSX.Element {
                                 <ArrowSite className="h-12" />
                             </Link>
                         </div>
-                        <Link href='#' className='bg-white border border-primaryBlueDark hover:bg-primaryBlueDark text-primaryBlueDark hover:text-white w-full lg:w-auto lg:h-12 flex justify-between ease-in-out duration-300 mt-4 lg:mt-0 py-3 lg:px-5 px-28'><strong className='font-openSans text-1.5xl font-bold uppercase mx-auto'>Retomar</strong>
+                        <Link href='/retomar' className='bg-white border border-primaryBlueDark hover:bg-primaryBlueDark text-primaryBlueDark hover:text-white w-full lg:w-auto lg:h-12 flex justify-between ease-in-out duration-300 mt-4 lg:mt-0 py-3 lg:px-5 px-28'><strong className='font-openSans text-1.5xl font-bold uppercase mx-auto'>Retomar</strong>
                         </Link>
                     </div>
                 </nav>
