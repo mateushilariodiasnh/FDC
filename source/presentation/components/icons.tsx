@@ -26,6 +26,7 @@ import QuotationMarks from "../public/images/imagesOfTheHomePage/quotationMarks.
 import IconHeader from "../public/images/common/IconHeader.svg"
 import DownArrowList from "../public/images/imagesOfTheHomePage/DownArrowList.svg"
 import Cut from "../public/images/imagesOfTheHomePage/cut.svg"
+import MainLogo from "../public/images/common/logoMain.svg"
 
 export {
     LogoOneFDC,
@@ -56,4 +57,5 @@ export {
     IconHeader,
     DownArrowList,
     Cut,
+    MainLogo,
 }

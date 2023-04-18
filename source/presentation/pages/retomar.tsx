@@ -1,18 +1,21 @@
-import { LogoOneFDC } from "../components/icons";
+import { MainLogo, IconHeader } from "../components/icons";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 
 export default function Retomar(): JSX.Element {
 
+    const { register, handleSubmit, formState: { errors } } = useForm();
+
     return (
         <>
             <header>
-                <Link href='#' className="flex justify-center my-4">
-                    <LogoOneFDC className='h-8' />
+                <Link href='/index' className="flex justify-center my-4 lg:my-6 space-x-1 lg:space-x-6">
+                    <MainLogo className='h-7 lg:h-12' />
+                    <IconHeader className='h-6 lg:h-9 lg:mt-1' />
                 </Link>
             </header>
-            <main className="px-4 w-full lg:max-w-2.5xl md:mx-auto ">
-                <div className=' grid grid-flow-row mt-12 lg:mt-20'>
+            <main className="px-4 w-full lg:px-0 lg:max-w-2.5xl md:max-w-md md:mx-auto ">
+                <div className=' grid grid-flow-row mt-12 lg:mt-16'>
                     <div>
                         <div className='h-2 w-12 bg-primaryBlue mb-4'></div>
                         <h1 className='uppercase font-bold font-nexaSlab text-2.5 text-3.8xl text-primaryBlueDark'>Retomar</h1>
@@ -24,19 +27,19 @@ export default function Retomar(): JSX.Element {
                     </div>
                 </div>
 
-                <form className="flex flex-col pt-10 lg:flex-row lg:w-full">
-                    <div className="flex flex-col gap-1">
+                <form className="flex flex-col pt-10 lg:pt-12 lg:pl-20 lg:flex-row lg:w-full">
+                    <div className="flex flex-col gap-1 lg:pr-3 lg:w-full">
                         <label htmlFor="" className="font-openSans font-bold text-primaryGrayDark text-1.5xl">E-mail cadastrado</label>
-                        <input type="email" name="email" id="email" placeholder="seunome@empresa.com.br" className="border border-primaryGrayDark py-2 pl-4" />
+                        <input type="email" id="email" placeholder="seunome@empresa.com.br" className="border border-primaryGrayDark py-2 pl-4 lg:mt-1" {...register('email')}/>
                     </div>
 
-                    <Link href='#' className='bg-primaryBlue  hover:bg-primaryBlueDark text-white lg:w-auto lg:h-12 flex justify-between ease-in-out duration-300 mt-5 py-3 lg:px-5 '><strong className='font-openSans text-1.5xl font-bold uppercase mx-auto'>Enviar</strong>
+                    <Link href='#' className='bg-primaryBlue  hover:bg-primaryBlueDark text-white flex ease-in-out duration-300 mt-5 lg:mt-7 lg:mr-20 py-3 lg:px-8 '><strong className='font-openSans text-1.5xl font-bold uppercase mx-auto'>Enviar</strong>
                     </Link>
                 </form>
 
-                <div className="mt-10 font-openSans text-1.5xl">
+                <div className="mt-10 lg:mt-9 font-openSans text-1.5xl">
                     <p className="text-primaryGrayDark font-normal mb-6">Após receber o código por e-mail, clique no link abaixo:</p>
-                    <a href="#" className="text-primaryBlue font-bold underline">Já tenho um código de verificação</a>
+                    <a href="/retomar-codigo" className="text-primaryBlue font-bold underline">Já tenho um código de verificação</a>
                 </div>
 
 
