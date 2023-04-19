@@ -12,7 +12,7 @@ export default function InitialSection(): JSX.Element {
                     <p className='mt-5 mx-6 font-normal font-openSans text-1.5xl lg:text-1xl'>Descubra os gaps do seu negócio com o apoio da FDC e crie <strong>trilhas de desenvolvimento específicas</strong> para a sua empresa. Com o programa Corporate Learn & Drive, seu time inicia a jornada para o futuro com a <strong>melhor escola de negócios da América Latina</strong>, cobrindo as principais dimensões necessárias para a evolução dos negócios - é uma verdadeira academia de gestão à sua disposição. <strong>A excelência educacional de sempre, em um formato que você nunca viu.</strong></p>
                     <div className='hidden lg:block border-l-4 border-tertiaryOrange ml-8 mt-16 mb-20 text-3.5xl font-openSans'>
                         <p className='ml-8 mr-10 pb-2 '>Cadastre-se e faça a <strong>avaliação de maturidade</strong> da sua empresa <strong>gratuitamente.</strong> </p>
-                        <Link href='#' className="flex pointer-events-none">
+                        <Link href='/cadastro' className="flex pointer-events-none">
                             <span className='uppercase text-white bg-primaryBlue hover:bg-white hover:text-primaryBlueDark ease-in-out duration-300 text-1.5xl font-openSans font-bold py-3 px-8 mt-4 ml-6 pointer-events-auto'>Quero começar agora</span>
                         </Link>
                     </div>
@@ -30,7 +30,7 @@ export default function InitialSection(): JSX.Element {
             </Link>
             <div className=' lg:hidden border-l-4 border-tertiaryOrange ml-6 mt-14 mb-20 font-openSans text-1.5xl'>
                 <p className='ml-6 mx-6 text-primaryBlueDark font-normal'>Cadastre-se e faça a <strong>avaliação de maturidade</strong> da sua empresa <strong>gratuitamente.</strong> </p>
-                <Link href='#' className="flex pointer-events-none">
+                <Link href='/cadastro' className="flex pointer-events-none">
                     <span className='uppercase text-white font-bold bg-primaryBlue py-3 px-8 mt-5 mx-6 hover:bg-primaryBlueDark ease-in-out duration-300 pointer-events-auto'>Quero começar agora</span>
                 </Link>
             </div>

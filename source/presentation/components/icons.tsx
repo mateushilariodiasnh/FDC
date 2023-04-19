@@ -27,6 +27,12 @@ import IconHeader from "../public/images/common/IconHeader.svg"
 import DownArrowList from "../public/images/imagesOfTheHomePage/DownArrowList.svg"
 import Cut from "../public/images/imagesOfTheHomePage/cut.svg"
 import MainLogo from "../public/images/common/logoMain.svg"
+import ListImageOne from "../public/images/imagesOfTheCadastro/listImageOne.svg"
+import ListImageTwo from "../public/images/imagesOfTheCadastro/listImageTwo.svg"
+import ListImageThree from "../public/images/imagesOfTheCadastro/listImageThree.svg"
+import ListImageFour from "../public/images/imagesOfTheCadastro/listImageFour.svg"
+import ListImageFive from "../public/images/imagesOfTheCadastro/listImageFive.svg"
+import ListImageSix from "../public/images/imagesOfTheCadastro/listImageSix.svg"
 
 export {
     LogoOneFDC,
@@ -58,4 +64,10 @@ export {
     DownArrowList,
     Cut,
     MainLogo,
+    ListImageOne,
+    ListImageTwo,
+    ListImageThree,
+    ListImageFour,
+    ListImageFive,
+    ListImageSix,
 }

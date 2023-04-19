@@ -9,6 +9,7 @@ module.exports = {
         openSans: ['Open-Sans', 'sans-serif'],
       },
       maxWidth: {
+        '1.5sm': '25.75rem',
         '3.5xl': '52rem',
         '1.5xl': '37.5rem',
         '2.5xl': '44.375rem',

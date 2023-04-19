@@ -1,6 +1,6 @@
-import { MainLogo, IconHeader } from "../components/icons";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
+import HeaderMobile from "../components/common/headerMobile";
 
 export default function Retomar(): JSX.Element {
 
@@ -9,11 +9,9 @@ export default function Retomar(): JSX.Element {
     return (
         <>
             <header>
-                <Link href='/index' className="flex justify-center my-4 lg:my-6 space-x-1 lg:space-x-6">
-                    <MainLogo className='h-7 lg:h-12' />
-                    <IconHeader className='h-6 lg:h-9 lg:mt-1' />
-                </Link>
+                <HeaderMobile />
             </header>
+
             <main className="px-4 w-full lg:px-0 lg:max-w-2.5xl md:max-w-md md:mx-auto ">
                 <div className=' grid grid-flow-row mt-12 lg:mt-16'>
                     <div>

@@ -1,9 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css/pagination"
-import { Pagination } from 'swiper';
+import { Pagination } from 'swiper'
 import 'swiper/css'
 import Cards from './CardComponent'
-import { IDataCard } from "../data/dataHomePage/CardsData";
+import { IDataCard } from "../data/dataHomePage/CardsData"
 
 interface ICardProps {
   data: IDataCard[];
